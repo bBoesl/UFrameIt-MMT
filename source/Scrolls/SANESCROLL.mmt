@@ -1,0 +1,66 @@
+namespace http://BenniDoes.Stuff/Sane ❚
+
+fixmeta http://BenniDoes.Stuff/?BenniDoesStuff ❚
+
+theory LineSegment =
+    start: V ❙
+    end: V ❙
+    distance: ℝ ❘ = d start end ❙
+❚
+
+theory Angle =
+    left: V ❙
+    inner: V ❙
+    right: V ❙
+    angle: ℝ ❘ = ≺ (left ⁻ inner) (right ⁻ inner) ❙
+❚
+
+// Scrolls for tan alpha = opposite /adjacent
+ when the right Angle is at C ❚
+
+theory Problem =
+    structure adjacent : ?LineSegment =
+    ❚
+
+    structure opposite : ?LineSegment =
+        start = adjacent/end ❙
+    ❚
+
+    structure alpha : ?Angle =
+      inner = adjacent/start ❙
+      left = opposite/end ❙
+      right = opposite/start ❙
+    ❚
+
+    structure rightAngle : ?Angle =
+      inner = adjacent/end ❙
+      left = adjacent/start ❙
+      right = opposite/end ❙
+    ❚
+
+    is_right_angle: ⊦ rightAngle/angle ≐ π / 2 ❙
+❚
+
+theory Solution =
+    include ?Problem ❙
+    calculated_opposite_length: ⊦ opposite/distance ≐ (tan alpha/angle) ⋅ adjacent/distance ❙
+❚
+
+
+
+theory Situation =
+    sA : V ❘ =  Vof 0 0 0 ❙
+    sB : V ❘ =  Vof 1 1 0 ❙
+    sC : V ❘ =  Vof 0 1 0 ❙
+❚
+
+view View : ?Problem -> ?Solution =
+    adjacent/start = sA ❙
+    adjacent/end  = sC ❙
+
+    opposite/end = sB ❙
+
+    is_right_angle = sketch "bla" ❙
+
+
+❚

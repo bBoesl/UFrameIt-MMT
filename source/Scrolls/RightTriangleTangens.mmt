@@ -1,0 +1,49 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+// Scrolls for tan alpha = opposite /adjacent
+ when the right Angle is at C ❚
+
+theory RightTriangleTangens_GetAlpha_problem  : http://BenniDoes.Stuff/?BenniDoesStuff =
+    pA: V ❙
+    pB: V ❙
+    pC: V ❙
+    pGamma: ℝ ❙
+    pGamma_right_proof: ⊦ pGamma ≐ ( π / 2 ) ❙
+    pGamma_proof: ⊦ ( ≺ (pA ⁻ pC ) ( pB ⁻ pC) ) ≐ pGamma ❙
+
+    pdAC: ℝ ❙
+    pdAC_Proof: ⊦ (d pA pC ) ≐ pdAC ❙
+
+    pdBC: ℝ ❙
+    pdBC_Proof: ⊦ (d pB pC ) ≐ pdBC ❙
+❚
+
+theory RightTriangleTangens_GetAlpha_solution : http://BenniDoes.Stuff/?BenniDoesStuff =
+    include ?RightTriangleTangens_GetAlpha_problem ❙
+    alpha: ℝ ❘ = arctan (pdBC / pdAC ) ❙
+    alpha_proof: ⊦  ( ≺ (pC ⁻ pA ) ( pB ⁻ pA) ) ≐ alpha ❙
+❚
+
+theory RightTriangleTangens_GetOpposite_problem  : http://BenniDoes.Stuff/?BenniDoesStuff =
+    pA: V ❙
+    pB: V ❙
+    pC: V ❙
+
+    pGamma: ℝ ❙
+    pGamma_right_proof: ⊦ pGamma ≐ ( π / 2 ) ❙
+    pGamma_proof: ⊦ ( ≺ (pA ⁻ pC ) ( pB ⁻ pC) ) ≐ pGamma ❙
+
+    pAlpha: ℝ ❘ = arctan (pdBC / pdAC ) ❙
+    pAlpha_proof: ⊦  ( ≺ (pC ⁻ pA ) ( pB ⁻ pA) ) ≐ alpha ❙
+
+    pdAC: ℝ ❙
+    pdAC_Proof: ⊦ (d pA pC ) ≐ pdAC ❙
+
+
+❚
+
+theory RightTriangleTangens_GetAlpha_solution : http://BenniDoes.Stuff/?BenniDoesStuff =
+    dBC_Proof: ℝ ❘ = ( tan pAlpha) /  pdAC ❙
+    dBC_Proof: ⊦ (d PB pC ) ≐ pdBC ❙
+
+❚
