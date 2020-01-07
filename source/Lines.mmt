@@ -11,7 +11,9 @@ theory Lines : http://mathhub.info/MitM/Foundation?Math =
     Line : type ❘ # L ❙
     lineOf : V ⟶ V ⟶ L ❘ # Lof 1 2 ❙
     lineDirection: L ⟶ V ❘ # Ldir 1 ❙
+    lineDirection_rule: {v, w} ⊦ lineDirection (Lof v w) ≐ norm ( w ⁻ v ) ❘ role ForwardRule ❙
     basepoint : L ⟶ V ❘ # Lbase  1 ❙
+    basepoint_rule: {v, w} ⊦ basepoint (Lof v w) ≐ v ❘ role ForwardRule ❙
 
     onLine : L ⟶ V ⟶ bool ❘ # 2 VonL 1  ❙
     buildLine : V ⟶ V ⟶ V ⟶ bool ❘ = [A,B,C] A VonL ( Lof B C)  ❘ # ∖ 1 2 3  ❙
@@ -20,14 +22,6 @@ theory Lines : http://mathhub.info/MitM/Foundation?Math =
     // pointOfIntersection = [A :L , B: L , p1 : ⊦ colL A B, p2 : ⊦ ¬ sameL A B] OV ❙
     pointOfIntersection : {A ,B } ( ⊦ colL A B ) ⟶ ( ⊦ ¬ Lsame A B ) ⟶ V ❘ # colLV 1 2 3 4  ❙
     pointOfIntersectionAxiom: {A, B, p1, p2} ⊦ ( ( colLV A B  p1  p2) VonL A ) ∧ ( ( colLV A B  p1 p2 ) VonL B  )❙
-
-    basepoint_axiom: {A, B} ⊦ Lbase ( Lof A B ) ≐ A ❙
-    // does it matter, if you ignore the opposite direction? ❙
-    direction_axiom = {A, B} ⊦  Ldir ( Lof A B) ≐  norm ( B ⁻ A )❙
-
-
-    //TODO Problem cyclic definition of basepoint  because Basepoint is defined with onLine  which is defined by basepoint ❙
-
 
 ❚
 

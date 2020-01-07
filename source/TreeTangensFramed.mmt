@@ -1,0 +1,47 @@
+namespace http://BenniDoes.Stuff/ ❚
+// C           ❚
+// |\          ❚
+// | \         ❚
+// |  \        ❚
+// |   \       ❚
+// |    \      ❚
+// |     \     ❚
+// |      \    ❚
+// |       \   ❚
+// |________\  ❚
+// A         B ❚
+
+
+theory problemTheoryTangens : http://BenniDoes.Stuff/?BenniDoesStuff =
+    pA: V ❙
+    pB: V ❙
+    pC: V ❙
+    pBeta: ℝ ❙
+    pdAB: ℝ ❙
+    pdistProof: ⊦ (d pA pB ) ≐ pdAB ❙
+❚
+
+theory situationTheoryTangens : http://BenniDoes.Stuff/?BenniDoesStuff =
+    sA: V ❘ = Vof 0 0 0 ❙
+    sB: V ❘ = Vof 1 0 0 ❙
+    sC: V ❘ = Vof 0 1 0 ❙
+    sBeta: ℝ ❘ = π / 4 ❙
+    sdAB : ℝ ❘ = 1 ❙
+    sdistProof: ⊦ (d sA sB ) ≐ sdAB ❙
+
+❚
+
+theory solutionTheoryTangens : http://BenniDoes.Stuff/?BenniDoesStuff =
+    include ☞?problemTheoryTangens ❙
+    dAC: ℝ ❘ = tan pBeta ⋅ pdAB ❙
+    dACproof : ⊦ ( d pA pC) ≐ dAC ❙
+❚
+
+view SituationProblemViewTangens : ?problemTheoryTangens -> ?situationTheoryTangens =
+    pA = sA ❙
+    pB = sB ❙
+    pC = sC ❙
+    pBeta = sBeta ❙
+    pdAB = sdAB ❙
+    pdistProof = sdistProof ❙
+❚

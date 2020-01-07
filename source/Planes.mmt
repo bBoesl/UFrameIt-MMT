@@ -15,11 +15,11 @@ theory Planes : http://mathhub.info/MitM/Foundation?Math =
     PlaneNormal : P ⟶ V ❘ # Pnormal 1 prec 50❙
     PlaneBase : P ⟶ V ❘ # Pbase 1  prec 50❙
 
-    PlaneBaseAxiom1 = {v, w, b } ⊦ Pbase (Ppara b v w ) ≐ b ❙
+    PlaneBaseAxiom1 = {v, w, b } ⊦ Pbase (Ppara b v w ) ≐ b ❘ role ForwardRule❙
 
-    normalAxiom1 = { v, w, b } ⊦ ( Pnormal ( Ppara b v w ) ) ≐ ( norm ( v Vcross w ) ) ❙
-    normalAxiom2 = { v, b } ⊦ ( Pnormal ( Ppn b v ) ) ≐ ( norm ( v ) ) ❙
-    triangleAxiom =  { T } ⊦ ( PofΔ T ) ≐ Ppara ( _A T ) ( _A  T ⁻ _B T  ) ( _A  T ⁻ _B T)   ❙
+    normalAxiom1 = { v, w, b } ⊦ ( Pnormal ( Ppara b v w ) ) ≐ ( norm ( v Vcross w ) ) ❘ role ForwardRule ❙
+    normalAxiom2 = { v, b } ⊦ ( Pnormal ( Ppn b v ) ) ≐ ( norm ( v ) ) ❘ role ForwardRule❙
+    triangleAxiom =  { T } ⊦ ( PofΔ T ) ≐ Ppara ( _A T ) ( _A  T ⁻ _B T  ) ( _A  T ⁻ _B T)  ❘ role ForwardRule ❙
 
     pointOnPlane : V ⟶ P ⟶ bool ❘= [v , p] < Pnormal p , v ⁻ Pbase p > ≐  0  ❘ #  1 VonP 2 ❙
     lineOnPlane : L ⟶ P ⟶ bool ❘= [l,p ] ( ( Lbase l ) VonP p ) ∧  ( ( Lbase l ) ⁺ ( Ldir l ) ) VonP p ❘#  1 LonP 2 ❙
@@ -32,12 +32,5 @@ theory Planes : http://mathhub.info/MitM/Foundation?Math =
     collidePlane : P ⟶ P ⟶ bool ❘ = [ A ,B ] ( ¬ A Ppar  B ) ∨ Psame A B ❘ #  colP 1 2 ❙
 
     collisionLine: {A, B } ⊦ colP A B ⟶ ⊦ ¬ Psame A B ⟶ L ❘ # colPPL 1 2 3 4❙
-    collisionLineAxiom: {A, B, p1 ,p2} ⊦ ( ( colPPL A B p1 p2 ) LonP A ) ∧( ( colPPL A B p1 p2 ) LonP B ) ❙
-
-
-    // TODOS : Line line distance, line plane distance, point line distance, point plane distance ❙
-    // TODOS : SOLVE cyclic  definition problem : solved by ditching the unique definition❙
-    // TODOS : Other Plane Figures , convex and concave ones ❙
-    // TODOS : 3 Dim Figuers like pyramids, prisms ❙
-    // TODOS : Start with Framing stuff ❙
+    collisionLineAxiom: {A, B, p1 ,p2} ⊦ ( ( colPPL A B p1 p2 ) LonP A ) ∧( ( colPPL A B p1 p2 ) LonP B )❙
 ❚

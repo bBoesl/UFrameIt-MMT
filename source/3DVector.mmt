@@ -7,8 +7,10 @@ import algebra http://mathhub.info/MitM/smglom/algebra ❚
 theory standartMathStuff :  http://mathhub.info/MitM/Foundation?Math =
     include ☞arith:?RealArithmetics ❙
     Pi : ℝ ❘ # π ❙
-    cos: ℝ ⟶ ℝ ❘ # cos 1❙
+    cos: ℝ ⟶ ℝ ❘# cos 1❙
     arccos: ℝ ⟶ ℝ ❘ # arccos 1❙
+    tan: ℝ ⟶ ℝ ❘ # tan 1 ❙
+    arctan: ℝ ⟶ ℝ ❘ # arctan 1 ❙
 ❚
 
 
@@ -23,13 +25,16 @@ theory Vector : http://mathhub.info/MitM/Foundation?Math =
     vectorOf: ℝ ⟶ ℝ ⟶ ℝ ⟶ V ❘ # Vof 1 2 3 ❙
     OV : V ❙
     v_1: V ⟶ ℝ ❘ # _x  1 prec 50 ❙
+    v_1_rule : {x: ℝ ,y: ℝ,z: ℝ} ⊦ v_1 ( Vof x y z ) ≐ x ❘role ForwardRule ❙
     v_2: V ⟶ ℝ ❘ # _y  1 prec 50 ❙
+    v_2_rule : {x: ℝ ,y: ℝ,z: ℝ} ⊦ v_2 ( Vof x y z ) ≐ y ❘role ForwardRule ❙
     v_3: V ⟶ ℝ ❘ # _z  1 prec 50 ❙
+    v_3_rule : {x: ℝ ,y: ℝ,z: ℝ} ⊦ v_3 ( Vof  x y z )≐ z ❘role ForwardRule ❙
 
      vec_add: V ⟶ V ⟶ V ❘ = [v, w]  Vof ( ( _x v )  + ( _x w ) ) ( ( _y v ) + ( _y w ) ) ( ( _z v )  + ( _z w ) ) ❘ # 1 ⁺ 2 ❙ // jsuperplus ❙
     // vec_add = realVec3.op  ❘ # 1 ⁺ 2 ❙
     vec_sub: V ⟶ V ⟶ V ❘ = [v, w]  Vof ( ( _x v )  - ( _x w ) ) ( ( _y v ) - ( _y w ) ) ( ( _z v )  - ( _z w ) ) ❘ # 1 ⁻ 2 ❙ // jsuperminus  ❙
-    vec_mult: ℝ ⟶ V  ⟶ V ❘ # 1 ** 2❙
+    vec_mult: ℝ ⟶ V  ⟶ V ❘ = [a, v] Vof ( a ⋅ _x v ) (a ⋅ _y v) ( a ⋅ _z v)❘ # 1 ** 2❙
     scalarproduct: V ⟶ V ⟶ ℝ ❘ = [v,w] ( _x v) ⋅ ( _x w) + ( _y v) ⋅ ( _y w) + ( _z v) ⋅ ( _z w) ❘ # < 1 , 2 > ❙
     norm: V ⟶ ℝ  ❘ = [v] √ <v,v> ❘ # n 1 ❙
     normalize: V ⟶ V ❘ = [v] 1 / (n v) ** v ❘ # norm 1 ❙
