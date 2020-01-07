@@ -1,0 +1,63 @@
+namespace http://BenniDoes.Stuff/ ❚
+// A          B         C  ❚
+// x----------x--------x-- ❚
+// |                  .    ❚
+// |                .      ❚
+// |              .        ❚
+// |          E .          ❚
+// x D        x------------❚
+// |       .  |            ❚
+// |     .    |            ❚
+// |   .      |            ❚
+// | .        |            ❚
+// x F        |            ❚
+
+
+theory ProblemTheory : http://BenniDoes.Stuff/?BenniDoesStuff =
+    A: V ❙
+    B: V ❙
+    C: V ❙
+    D: V ❙
+    E: V ❙
+    F: V ❙
+
+    distance_A_B_value : ℝ ❙
+    distance_A_B:  ⊦ ( d A B) ≐ distance_A_B_value ❙
+
+    distance_A_D_value : ℝ ❙
+    distance_A_D:  ⊦ ( d A D) ≐ distance_A_D_value ❙
+
+    distance_B_C_value : ℝ ❙
+    distance_B_C:  ⊦ ( d B C) ≐ distance_B_C_value ❙
+
+    distance_B_E_value : ℝ ❙
+    distance_B_E:  ⊦ ( d B E) ≐ distance_B_E_value ❙
+
+    distance_C_E_value : ℝ ❙
+    distance_C_E:  ⊦ ( d C E) ≐ distance_C_E_value ❙
+
+    distance_C_F_value : ℝ ❙
+    distance_C_F:  ⊦ ( d C F) ≐ distance_C_F_value ❙
+
+    distance_D_F: ℝ ❙
+    distance_D_F: ⊦ (d D F) ≐ distance_D_F_value ❙
+
+    distance_E_D_value : ℝ ❙
+    distance_E_D:  ⊦ ( d E D) ≐ distance_E_D_value ❙
+
+    distance_E_B_value : ℝ ❙
+    distance_E_B:  ⊦ ( d E B) ≐ distance_E_B_value ❙
+
+    distance_E_F_value : ℝ ❙
+    distance_E_F:  ⊦ ( d E F) ≐ distance_E_F_value ❙
+
+
+
+    RightAngleProof: ⊦ ✓ ( ≺ B A D ) ❙
+    SumProof_1: ⊦ distance_C_F_value ≐ ( distance_C_E_value  + distance_E_F_value )❙
+    SamelengthProof_1: ⊦ distance_A_D_value ≐ distance_E_B_value ❙
+    SamelengthProof_2: ⊦ distance_E_D_value ≐ distance_A_B_value ❙
+
+
+❚
+

@@ -1,0 +1,22 @@
+dataconstructor http://BenniDoes.Stuff/?standartMathStuff?arccos
+dataconstructor http://BenniDoes.Stuff/?standartMathStuff?Pi
+dataconstructor http://BenniDoes.Stuff/?standartMathStuff?cos
+theory http://BenniDoes.Stuff/?standartMathStuff
+HasMeta http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/Foundation?Math
+Declares http://BenniDoes.Stuff/?standartMathStuff http://BenniDoes.Stuff/?standartMathStuff?arccos
+constant http://BenniDoes.Stuff/?standartMathStuff?arccos
+DependsOn http://BenniDoes.Stuff/?standartMathStuff?arccos?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?standartMathStuff http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Declares http://BenniDoes.Stuff/?standartMathStuff http://BenniDoes.Stuff/?standartMathStuff?Pi
+constant http://BenniDoes.Stuff/?standartMathStuff?Pi
+DependsOn http://BenniDoes.Stuff/?standartMathStuff?Pi?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?standartMathStuff http://BenniDoes.Stuff/?standartMathStuff?cos
+constant http://BenniDoes.Stuff/?standartMathStuff?cos
+DependsOn http://BenniDoes.Stuff/?standartMathStuff?cos?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type

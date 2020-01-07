@@ -1,0 +1,100 @@
+namespace http://BenniDoes.Stuff/ ❚
+//  C           ❚
+//  |\          ❚
+// ~|~\~~~~~    ❚
+// ~|~~\~~~~    ❚
+// ~|~~~\~~~    ❚
+// ~|~~~~\~~    ❚
+// B|_____\E    ❚
+//  |      \    ❚
+//  |       \   ❚
+//  |________\  ❚
+//  A         F ❚
+
+theory problemTheoryRiver1 : http://BenniDoes.Stuff/?BenniDoesStuff =
+
+
+    av : V ❙
+    bv : V ❙
+    cv : V ❙
+    ev : V ❙
+    fv : V ❙
+
+    distance_a_b_value : ℝ ❙
+    distance_a_b: ⊦ ( d av bv ) ≐ distance_a_b_value ❙
+
+    distance_a_f_value: ℝ ❙
+    distance_a_f: ⊦ ( d av fv ) ≐ ( distance_a_f_value ) ❙
+
+    distance_b_e_value : ℝ ❙
+    distance_b_e: ⊦ ( d bv ev ) ≐ distance_b_e_value ❙
+
+
+    buildLineProof_a_b_c: ⊦ ( ∖ av bv cv) ❙
+    buildLineProof_c_e_f: ⊦ ( ∖ cv ev fv) ❙
+    proofLinesnotSame: ⊦ ¬ ( (av ⁻ cv) ∥ (cv ⁻ fv) ) ❙
+
+    parallelHeightsProof: ⊦ (av ⁻ fv) ∥ (bv ⁻ ev) ❙
+❚
+
+theory situationTheroryRiver1 : http://BenniDoes.Stuff/?BenniDoesStuff =
+
+    sa: V ❙
+    sb: V ❙
+    sc: V ❙
+    se: V ❙
+    sf: V ❙
+
+    sdistance_a_b_value = 5.0 ❙
+    sdistance_a_b: ⊦ ( d sa sb ) ≐ sdistance_a_b_value ❙
+
+    sdistance_a_f_value = 5.0 ❙
+    sdistance_a_f: ⊦ ( d sa sf ) ≐ sdistance_a_f_value ❙
+
+    sdistance_b_e_value = 1.0 ❙
+    sdistance_b_e: ⊦ ( d sb se ) ≐ sdistance_b_e_value ❙
+
+
+
+
+    sbuildLineProof_a_b_c: ⊦ ( ∖ sa sb sc) ❙
+    sbuildLineProof_c_e_f: ⊦ ( ∖ sc se sf) ❙
+    sproofLinesnotSame: ⊦ ¬ ( (sa ⁻ sc) ∥ (sc ⁻ sf) ) ❙
+
+    sparallelHeightsProof: ⊦ (sa ⁻ sf) ∥ (sb ⁻ se) ❙
+
+
+❚
+
+theory solutionTheroryRiver1 : http://BenniDoes.Stuff/?BenniDoesStuff =
+    include ?problemTheoryRiver1 ❙
+
+    distance_a_c_value : ℝ ❘ =  distance_a_b_value ⋅ distance_a_f_value / distance_b_e_value ❙
+    distance_a_c: ⊦ ( d av cv ) ≐ distance_a_c_value ❙
+
+❚
+
+view situationProblemViewRiver1 : ?problemTheoryRiver1 -> ?situationTheroryRiver1 =
+    av = sa ❙
+    bv = sb ❙
+    cv = sc ❙
+    ev = se ❙
+    fv = sf ❙
+
+    distance_a_b_value = sdistance_a_b_value  ❙
+    distance_a_b = sdistance_a_b ❙
+
+    distance_a_f_value = sdistance_a_f_value  ❙
+    distance_a_f = sdistance_a_f ❙
+
+    distance_b_e_value = sdistance_b_e_value ❙
+    distance_b_e = sdistance_b_e ❙
+
+
+    buildLineProof_a_b_c = sbuildLineProof_a_b_c ❙
+    buildLineProof_c_e_f = sbuildLineProof_c_e_f ❙
+    proofLinesnotSame = sproofLinesnotSame ❙
+
+    parallelHeightsProof = sparallelHeightsProof ❙
+
+❚

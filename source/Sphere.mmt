@@ -1,0 +1,20 @@
+namespace http://BenniDoes.Stuff/ ❚
+theory Sphere : http://mathhub.info/MitM/Foundation?Math =
+    include ?Vector ❙
+    include ?Lines ❙
+
+    sphere: type ❘ # S ❙
+    sphereAround: V ⟶ ℝ ⟶ S ❘# So 1 2 ❙
+    center: S ⟶ V ❘ # Sm 1 ❙
+    centerAxiom: {m,r}  ⊦ Sm ( So m r) ≐ m ❙
+    radius: S ⟶ ℝ ❘ # Sr 1 ❙
+    radiusAxiom : {m,r} ⊦ Sr (So m r) ≐ r ❙
+
+    onSphere: S ⟶ V ⟶ bool ❘ =  [s, v] ( d ( Sm s ) ( v ) ) ≐ ( Sr s ) ❘ # 2 VonS  1 ❙
+    inSphere: S ⟶ V ⟶ bool ❘ =  [s, v] ( d ( Sm s ) ( v ) ) < ( Sr s ) ❘ # 2 VinS  1 ❙
+
+    collidesSphereLine: S ⟶ L ⟶ bool ❘ = [s,l] ∃ [v] ( v VonL  l ) ∨  (v VinS s ) ❘ # 1 ScolL  2 ❙
+
+    circumfenceSphere: S ⟶ ℝ ❘ = [s] ( Sr s ) ⋅ ( Sr s) ⋅ 4 ⋅ π  ❘ # CS 1 ❙
+    areaSphere :  S ⟶ ℝ ❘ = [s] ( Sr s ) ⋅ ( Sr s ) ⋅ (Sr s) ⋅ ( 4 / 3 ) ⋅ π  ❘ # AS 1 ❙
+❚

@@ -1,0 +1,110 @@
+namespace http://BenniDoes.Stuff/ ❚
+import mitm http://mathhub.info/MitM/Foundation ❚
+import arith http://mathhub.info/MitM/smglom/arithmetics ❚
+
+
+
+
+theory Triangle :  http://mathhub.info/MitM/Foundation?Math =
+    include ?Vector ❙
+    include ?Lines ❙
+
+    triangle: type ❘ # Δ ❙
+    triangleOf: V ⟶ V ⟶ V ⟶ Δ ❘ # Δof 1 2 3 ❙
+
+    t_1 : Δ ⟶ V ❘ # _A 1 prec 50 ❙
+    t_2 : Δ ⟶ V ❘ # _B 1 prec 50 ❙
+    t_3 : Δ ⟶ V ❘ # _C 1 prec 50 ❙
+
+    vertex_1: {A,B,C} ⊦ t_1 ( Δof A B C ) ≐ A ❙
+    vertex_2: {A,B,C} ⊦ t_2 ( Δof A B C ) ≐ B ❙
+    vertex_3: {A,B,C} ⊦ t_3 ( Δof A B C ) ≐ C ❙
+
+    alpha : Δ ⟶ ℝ ❘ # _α 1 prec 50 ❘ = [T] angle ( _B T  ⁻ _A T ) ( _C T ⁻ _A T )❙
+    beta  : Δ ⟶ ℝ ❘ # _β 1 prec 50 ❘ = [T] angle ( _A T ⁻  _B T ) ( _C T ⁻ _B T )❙
+    gamma : Δ ⟶ ℝ ❘ # _γ 1 prec 50 ❘ = [T] angle ( _A T ⁻ _C T  ) ( _B T ⁻ _C T )❙
+
+    a_triangle: Δ ⟶ ℝ ❘ = [T] n( _B T ⁻ _C T) ❘ # _a 1 prec 50 ❙
+    b_triangle: Δ ⟶ ℝ ❘ = [T] n( _A T ⁻ _C T) ❘ # _b 1 prec 50 ❙
+    c_triangle: Δ ⟶ ℝ ❘ = [T] n( _A T ⁻ _B T) ❘ # _c 1 prec 50 ❙
+
+    ha_triangle_point: Δ ⟶ V ❘ # _haV 1 prec 50 ❙
+    ha_triangle_point_axiom: { T } ⊦ ( _haV T ) VonL ( Lof ( _B T) ( _C T ) ) ∧ ( _haV T ⁻ _B T ) ⊥⊥ ( _haV T ⁻ _A T ) ❙
+    ha_triangle_lenght: Δ ⟶ ℝ ❘ = [T] d ( _A T ) ( _haV T  )❘ # _ha 1 prec 50 ❙
+
+    hb_triangle_point: Δ ⟶ V ❘ # _hbV 1 prec 50 ❙
+    hb_triangle_point_axiom: { T } ⊦ ( _hbV T ) VonL ( Lof ( _A T) ( _C T ) ) ∧ ( _hbV T ⁻ _A T ) ⊥⊥ ( _hbV T ⁻ _B T ) ❙
+    hb_triangle_lenght: Δ ⟶ ℝ ❘ = [T] d ( _B T ) ( _hbV T  )❘ # _hb 1 prec 50 ❙
+
+    hc_triangle_point: Δ ⟶ V ❘ # _hcV 1 prec 50❙
+    hc_triangle_point_axiom: { T } ⊦ ( _hcV T ) VonL ( Lof ( _A T) ( _B T ) ) ∧ ( _hcV T ⁻ _A T ) ⊥⊥ ( _hbV T ⁻ _C T ) ❙
+    hc_triangle_lenght: Δ ⟶ ℝ ❘ = [T] d ( _C T ) ( _hcV T  )❘ # _hc 1 prec 50 ❙
+
+    lawOfCosineAlpha: { T } ⊦ ( _a T ⋅ _a T ) ≐ ( _b T ⋅ _b T ) + ( _c T ⋅ _c T ) + 2 ⋅ _b T ⋅ _c T ⋅  ( cos ( _α T ) )❙
+    lawOfCosineBeta : { T } ⊦ ( _b T ⋅ _b T ) ≐ ( _a T ⋅ _a T ) + ( _c T ⋅ _c T ) + 2 ⋅ _a T ⋅ _c T ⋅  ( cos ( _β T ) )❙
+    lawOfCosineGamma: { T } ⊦ ( _c T ⋅ _c T ) ≐ ( _a T ⋅ _a T ) + ( _b T ⋅ _b T ) + 2 ⋅ _a T ⋅ _b T ⋅  ( cos ( _γ T ) )❙
+
+    lawOfSinesAB: { T } ⊦ _a  T / sin ( _α T ) ≐ _b T / sin ( _β T ) ❙
+    lawOfSinesAC: { T } ⊦ _a  T / sin ( _α T ) ≐ _c T / sin ( _γ T ) ❙
+    lawOfSinesCB: { T } ⊦ _c  T / sin ( _γ T ) ≐ _b T / sin ( _β T ) ❙
+
+    angleSum = {T} ⊦ (( _α T) + ( _β T) + ( _γ T) )≐ π ❙
+    area: Δ ⟶ ℝ ❘ = [T]  ( n  ( ( _A T  ⁻  _B T ) Vcross ( _A T   ⁻  _C T ) ) )  ⋅ ( 1 / 2 )❘ # AΔ 1 ❙
+
+
+❚
+
+theory SymmetricTriangles : http://mathhub.info/MitM/Foundation?Math =
+    include ?Triangle ❙
+    symmetric_α: Δ ⟶ bool ❘ = [T] _β T ≐ _γ T ❘ # sym_α 1 ❙
+    symmetric_β: Δ ⟶ bool ❘ = [T] _α T ≐ _γ T ❘ # sym_β 1 ❙
+    symmetric_γ: Δ ⟶ bool ❘ = [T] _α T ≐ _β T ❘ # sym_γ 1 ❙
+
+    symmetric_edges_α: {T} {p : ⊦ (sym_α T) } ⊦ _b T ≐ _c T ❙
+    symmetric_edges_β: {T} {p : ⊦ (sym_β T) } ⊦ _a T ≐ _c T ❙
+    symmetric_edges_γ: {T} {p : ⊦ (sym_γ T) } ⊦ _a T ≐ _b T ❙
+
+    symmetric_α_edges: {T} {p : ⊦ ( _b T ≐ _c T)} ⊦ sym_α T ❙
+    symmetric_β_edges: {T} {p : ⊦ ( _a T ≐ _c T)} ⊦ sym_β T ❙
+    symmetric_γ_edges: {T} {p : ⊦ ( _a T ≐ _b T)} ⊦ sym_γ T ❙
+
+❚
+
+theory Pythagoras :  http://mathhub.info/MitM/Foundation?Math =
+    include ?Triangle ❙
+
+    pythagoras_α = [T]  ( _c T) ⋅ ( _c T) + ( _b T) ⋅ ( _b T) ≐ ( _a T) ⋅ ( _a T) ❙
+    pythagoras_β = [T]  ( _a T) ⋅ ( _a T) + ( _c T) ⋅ ( _c T) ≐ ( _b T) ⋅ ( _b T) ❙
+    pythagoras_γ = [T]  ( _a T) ⋅ ( _a T) + ( _b T) ⋅ ( _b T) ≐ ( _c T) ⋅ ( _c T) ❙
+
+    pythagoras_theorem_α : {T}  { p :  ⊦ ( ✓  _α T  ) } ⊦ pythagoras_α  T ❙
+    pythagoras_theorem_β : {T}  { p :  ⊦ ( ✓  _β T  ) } ⊦ pythagoras_β  T ❙
+    pythagoras_theorem_γ : {T}  { p :  ⊦ ( ✓  _γ T  ) } ⊦ pythagoras_γ  T ❙
+
+    geometric_mean_α = [T]  ( _ha T ⋅ _ha T ) ≐ ( d ( _haV T ) ( _B T ) ) ⋅ ( d ( _haV T) ( _C T ) ) ❙
+    geometric_mean_β = [T]  ( _hb T ⋅ _hb T ) ≐ ( d ( _hbV T ) ( _A T ) ) ⋅ ( d ( _hbV T) ( _C T ) ) ❙
+    geometric_mean_γ = [T]  ( _hc T ⋅ _hc T ) ≐ ( d ( _hcV T ) ( _B T ) ) ⋅ ( d ( _hcV T) ( _A T ) ) ❙
+
+    geometric_mean_theorem_α : {T} { p :  ⊦ ( ✓  _α T  ) } ⊦ geometric_mean_α T ❙
+    geometric_mean_theorem_β : {T} { p :  ⊦ ( ✓  _β T  ) } ⊦ geometric_mean_β T ❙
+    geometric_mean_theorem_γ : {T} { p :  ⊦ ( ✓  _γ T  ) } ⊦ geometric_mean_γ T ❙
+
+    cathetus_α_1 = [T]  ( _b T ⋅ _b T  ) ≐ _a T ⋅ ( d ( _haV T) ( _C T ) )❙
+    cathetus_α_2 = [T]  ( _c T ⋅ _c T  ) ≐ _a T ⋅ ( d ( _haV T) ( _B T ) )❙
+
+    cathetus_β_1 = [T]  ( _c T ⋅ _c T  ) ≐ _b T ⋅ ( d ( _hbV T) ( _A T ) )❙
+    cathetus_β_2 = [T]  ( _a T ⋅ _a T  ) ≐ _b T ⋅ ( d ( _hbV T) ( _C T ) )❙
+
+    cathetus_γ_1 = [T]  ( _a T ⋅ _a T  ) ≐ _c T ⋅ ( d ( _hcV T) ( _B T ) )❙
+    cathetus_γ_2 = [T]  ( _b T ⋅ _b T  ) ≐ _c T ⋅ ( d ( _hcV T) ( _A T ) )❙
+
+    catheus_theorem_α_1 : {T} { p :  ⊦ ( ✓  _α T  ) } ⊦ cathetus_α_1 T ❙
+    catheus_theorem_α_2 : {T} { p :  ⊦ ( ✓  _α T  ) } ⊦ cathetus_α_2 T ❙
+
+    catheus_theorem_β_1 : {T} { p :  ⊦ ( ✓  _β T  ) } ⊦ cathetus_β_1 T ❙
+    catheus_theorem_β_2 : {T} { p :  ⊦ ( ✓  _β T  ) } ⊦ cathetus_β_2 T ❙
+
+    catheus_theorem_γ_1 : {T} { p :  ⊦ ( ✓  _γ T  ) } ⊦ cathetus_γ_1 T ❙
+    catheus_theorem_γ_2 : {T} { p :  ⊦ ( ✓  _γ T  ) } ⊦ cathetus_γ_2 T ❙
+
+❚

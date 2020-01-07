@@ -1,0 +1,23 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+import mitm http://mathhub.info/MitM/Foundation ❚
+import arith http://mathhub.info/MitM/smglom/arithmetics ❚
+
+theory Pyramid :  http://mathhub.info/MitM/Foundation?Math =
+    include ☞http://BenniDoes.Stuff/?Vector ❙
+    include ☞http://BenniDoes.Stuff/?Triangle ❙
+
+    Pyramid : type ❘ # Pyr ❙
+    pyramidOf : V ⟶ V ⟶ V ⟶ V ⟶ Pyr ❘ # Pyrof 1 2 3 4 ❙
+    P_A : Pyr ⟶ V ❘ # P_A 1❙
+    P_A_axiom : {a :V, b :V, c :V, dd :V } ⊦ ( P_A ( Pyrof a b c dd) ) ≐  a  ❙
+    P_B : Pyr ⟶ V ❘ # P_B 1❙
+    P_B_axiom : {a :V, b :V, c :V, dd :V } ⊦ ( P_B ( Pyrof a b c dd) ) ≐  b  ❙
+    P_C : Pyr ⟶ V ❘ # P_C 1❙
+    P_C_axiom : {a :V, b :V, c :V, dd :V } ⊦ ( P_C ( Pyrof a b c dd) ) ≐  c  ❙
+    P_D : Pyr ⟶ V ❘ # P_D 1❙
+    P_D_axiom : {a :V, b :V, c :V, dd :V } ⊦ ( P_D ( Pyrof a b c dd) ) ≐  dd  ❙
+
+    Volume_Pyramid: Pyr ⟶ ℝ ❘ = [p ] ( 1 / 6) ⋅ ( < ( ( ( P_B p ) ⁻ ( P_A p ) ) Vcross ( ( P_C  p ) ⁻ ( P_A p ) ) ), (( P_D  p ) ⁻ ( P_A p )  ) > ) ❘# VolofP 1 ❙
+
+❚

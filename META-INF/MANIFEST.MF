@@ -1,0 +1,7 @@
+id: FrameIt/Prototype
+source-base: http://mathhub.info/FrameIt/Prototype
+narration-base: http://mathhub.info/FrameIt/Prototype
+responsible: benjamin.boesl@fau.de
+title: UFrameIt-MMT
+teaser:<p>Formalization of 3D Geometry and Scrolls of the UFrameIt Project</p>
+description:desc.html
