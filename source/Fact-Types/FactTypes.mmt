@@ -1,0 +1,33 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+fixmeta http://BenniDoes.Stuff/?BenniDoesStuff ❚
+
+theory DistanceFact =
+
+     distanceFact : type ❘ # DF ❙
+     distanceFactCreate: V ⟶ V ⟶ ℝ ⟶ DF ❘ # DFof 1 2 3 ❙
+
+     PointA: DF ⟶ V ❘# DF_A 1❙
+     PointB: DF ⟶ V ❘# DF_B 1❙
+     DistanceLenght: DF ⟶ ℝ ❘ # DF_l 1 ❙
+
+     PointA_Rule: {a,b,l}  ⊦ ( DF_A ( DFof a b l ) ) ≐ a  ❘ role ForwardRule❙
+     PointB_Rule: {a,b,l}  ⊦ ( DF_B ( DFof a b l ) ) ≐ b ❘ role ForwardRule❙
+     DistanceLength_Rule: {a,b,l}  ⊦ ( DF_l ( DFof a b l ) ) ≐ l ❘ role ForwardRole❙
+
+❚
+
+theory AngleFact =
+    angleFact : type ❘ # AF ❙
+    angleFactCreate: V ⟶ V ⟶ V ⟶ ℝ ⟶ AF ❘ # AFof 1 2 3 4 ❙
+
+    left : AF ⟶ V ❘ # AF_L ❙
+    inner: AF ⟶ V ❘ # AF_I ❙
+    right: AF ⟶ V ❘ # AF_R ❙
+    value: AF ⟶ ℝ ❘ # AF_V ❙
+
+    left_Rule : {a,b,c,v} ⊦ ( AF_L ( AFof a b c v)) ≐ a ❘ role ForwardRule ❙
+    inner_Rule: {a,b,c,v} ⊦ ( AF_I ( AFof a b c v)) ≐ b ❘ role ForwardRule ❙
+    right_Rule: {a,b,c,v} ⊦ ( AF_R ( AFof a b c v)) ≐ c ❘ role ForwardRule ❙
+    value_Rule: {a,b,c,v} ⊦ ( AF_V ( AFof a b c v)) ≐ v ❘ role ForwardRule ❙
+❚

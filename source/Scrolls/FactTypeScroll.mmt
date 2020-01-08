@@ -1,0 +1,48 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+fixmeta http://BenniDoes.Stuff/?FactCollection ❚
+
+theory TypedProblem =
+    pA : V ❙
+    pB : V ❙
+    pC : V ❙
+
+    pdAC : DF ❙
+    paBeta: AF ❙
+    paGamma: AF ❙
+
+    //saying that the given distance is measured between the right points  ❙
+    AC_correct: ⊦  ( (DF_A pdAC ≐ pA) ∧ ( DF_B pdAC ≐ pC ) ) ∨ ( ( DF_A pdAC ≐ pC ) ∧ ( DF_B pdAC ≐ pA ) )❙
+
+    //saying that the given angles are measuered between the right points ❙
+    Beta_correct: ⊦ (AF_L paBeta ≐ pA ) ∧ ( AF_I paBeta  ≐ pB ) ∧ (AF_R paBeta ≐ pC ) ❙
+
+    //saying that gamma = 90° ❙
+    Beta_right: ⊦ (AF_V paBeta) ≐ π / 2 ❙
+❚
+
+theory TypedSolution =
+    include ?TypedProblem ❙
+
+    dBC: DF ❘ = DFof B C ( ( tan ( AF_V paBeta ) ) ⋅ DF_l pdAC ) ❙
+❚
+
+theory TypedSituation =
+     sA : V ❘ = Vof 0 0 0❙
+     sB : V ❘ = Vof 1 1 0❙
+     sC : V ❘ = Vof 0 1 0❙
+
+     sdAC : DF ❘ = DFof sA sC 1❙
+     saBeta : AF ❘ = AFof sA sB sC ( π / 4 ) ❙
+     saGamma: AF ❘ = AFof sB SC sA ( π / 2 ) ❙
+❚
+
+view TypedView : ?TypedProblem -> ?TypedSituation =
+     pA = sA ❙
+     pB = sB ❙
+     pC = SC ❙
+
+     pdAC = sdAC ❙
+     paBeta = saBeta ❙
+     paGamma = saGamma ❙
+❚
