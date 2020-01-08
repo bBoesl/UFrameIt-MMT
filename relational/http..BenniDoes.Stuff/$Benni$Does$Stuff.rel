@@ -1,0 +1,18 @@
+theory http://BenniDoes.Stuff/?BenniDoesStuff
+HasMeta http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://BenniDoes.Stuff/?standartMathStuff
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://BenniDoes.Stuff/?Lines
+Includes http://BenniDoes.Stuff/?BenniDoesStuff ☞http://BenniDoes.Stuff/?InterceptTheorem
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://BenniDoes.Stuff/?Triangle
+Includes http://BenniDoes.Stuff/?BenniDoesStuff http://BenniDoes.Stuff/?Pythagoras
+Includes http://BenniDoes.Stuff/?BenniDoesStuff ☞http://BenniDoes.Stuff/?Planes
+Includes http://BenniDoes.Stuff/?BenniDoesStuff ☞http://BenniDoes.Stuff/?Sphere

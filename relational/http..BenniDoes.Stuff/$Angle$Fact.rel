@@ -1,0 +1,86 @@
+datatypeconstructor http://BenniDoes.Stuff/?AngleFact?angleFact
+dataconstructor http://BenniDoes.Stuff/?AngleFact?angleFactCreate
+dataconstructor http://BenniDoes.Stuff/?AngleFact?left
+dataconstructor http://BenniDoes.Stuff/?AngleFact?inner
+dataconstructor http://BenniDoes.Stuff/?AngleFact?right
+dataconstructor http://BenniDoes.Stuff/?AngleFact?value
+dataconstructor http://BenniDoes.Stuff/?AngleFact?left_Rule
+dataconstructor http://BenniDoes.Stuff/?AngleFact?inner_Rule
+dataconstructor http://BenniDoes.Stuff/?AngleFact?right_Rule
+dataconstructor http://BenniDoes.Stuff/?AngleFact?value_Rule
+untypedconstant http://BenniDoes.Stuff/?AngleFact?rightPoints
+theory http://BenniDoes.Stuff/?AngleFact
+HasMeta http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?BenniDoesStuff
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?angleFact
+constant http://BenniDoes.Stuff/?AngleFact?angleFact
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?angleFactCreate
+constant http://BenniDoes.Stuff/?AngleFact?angleFactCreate
+DependsOn http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?left
+constant http://BenniDoes.Stuff/?AngleFact?left
+DependsOn http://BenniDoes.Stuff/?AngleFact?left?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?inner
+constant http://BenniDoes.Stuff/?AngleFact?inner
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?right
+constant http://BenniDoes.Stuff/?AngleFact?right
+DependsOn http://BenniDoes.Stuff/?AngleFact?right?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?value
+constant http://BenniDoes.Stuff/?AngleFact?value
+DependsOn http://BenniDoes.Stuff/?AngleFact?value?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?left_Rule
+constant http://BenniDoes.Stuff/?AngleFact?left_Rule
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://BenniDoes.Stuff/?AngleFact?left?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?left_Rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?inner_Rule
+constant http://BenniDoes.Stuff/?AngleFact?inner_Rule
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://BenniDoes.Stuff/?AngleFact?inner?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?inner_Rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?right_Rule
+constant http://BenniDoes.Stuff/?AngleFact?right_Rule
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?right_Rule?type http://BenniDoes.Stuff/?AngleFact?right?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?value_Rule
+constant http://BenniDoes.Stuff/?AngleFact?value_Rule
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://BenniDoes.Stuff/?AngleFact?value?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type
+DependsOn http://BenniDoes.Stuff/?AngleFact?value_Rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?rightPoints
+constant http://BenniDoes.Stuff/?AngleFact?rightPoints

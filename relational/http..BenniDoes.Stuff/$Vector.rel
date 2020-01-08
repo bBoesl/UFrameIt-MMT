@@ -2,8 +2,11 @@ datatypeconstructor http://BenniDoes.Stuff/?Vector?vector
 dataconstructor http://BenniDoes.Stuff/?Vector?vectorOf
 dataconstructor http://BenniDoes.Stuff/?Vector?OV
 dataconstructor http://BenniDoes.Stuff/?Vector?v_1
+dataconstructor http://BenniDoes.Stuff/?Vector?v_1_rule
 dataconstructor http://BenniDoes.Stuff/?Vector?v_2
+dataconstructor http://BenniDoes.Stuff/?Vector?v_2_rule
 dataconstructor http://BenniDoes.Stuff/?Vector?v_3
+dataconstructor http://BenniDoes.Stuff/?Vector?v_3_rule
 dataconstructor http://BenniDoes.Stuff/?Vector?vec_add
 dataconstructor http://BenniDoes.Stuff/?Vector?vec_sub
 dataconstructor http://BenniDoes.Stuff/?Vector?vec_mult
@@ -13,6 +16,7 @@ dataconstructor http://BenniDoes.Stuff/?Vector?normalize
 dataconstructor http://BenniDoes.Stuff/?Vector?vec_cross
 dataconstructor http://BenniDoes.Stuff/?Vector?metric
 dataconstructor http://BenniDoes.Stuff/?Vector?angle
+dataconstructor http://BenniDoes.Stuff/?Vector?angle_between
 dataconstructor http://BenniDoes.Stuff/?Vector?parallel
 dataconstructor http://BenniDoes.Stuff/?Vector?orthogonal
 dataconstructor http://BenniDoes.Stuff/?Vector?rightangle
@@ -40,14 +44,47 @@ Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?v_1
 constant http://BenniDoes.Stuff/?Vector?v_1
 DependsOn http://BenniDoes.Stuff/?Vector?v_1?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?v_1?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?v_1_rule
+constant http://BenniDoes.Stuff/?Vector?v_1_rule
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://BenniDoes.Stuff/?Vector?v_1?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://BenniDoes.Stuff/?Vector?vectorOf?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_1_rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?v_2
 constant http://BenniDoes.Stuff/?Vector?v_2
 DependsOn http://BenniDoes.Stuff/?Vector?v_2?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?v_2?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?v_2_rule
+constant http://BenniDoes.Stuff/?Vector?v_2_rule
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://BenniDoes.Stuff/?Vector?v_2?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://BenniDoes.Stuff/?Vector?vectorOf?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_2_rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?v_3
 constant http://BenniDoes.Stuff/?Vector?v_3
 DependsOn http://BenniDoes.Stuff/?Vector?v_3?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?v_3?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?v_3_rule
+constant http://BenniDoes.Stuff/?Vector?v_3_rule
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://BenniDoes.Stuff/?Vector?v_3?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://BenniDoes.Stuff/?Vector?vectorOf?type
+DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?vec_add
 constant http://BenniDoes.Stuff/?Vector?vec_add
 DependsOn http://BenniDoes.Stuff/?Vector?vec_add?type http://BenniDoes.Stuff/?Vector?vector?type
@@ -72,6 +109,13 @@ Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?vec_mult
 constant http://BenniDoes.Stuff/?Vector?vec_mult
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?v_1?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?v_2?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?v_3?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?scalarproduct
 constant http://BenniDoes.Stuff/?Vector?scalarproduct
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?type http://BenniDoes.Stuff/?Vector?vector?type
@@ -161,6 +205,14 @@ DependsOn http://BenniDoes.Stuff/?Vector?angle?definition http://mathhub.info/Mi
 DependsOn http://BenniDoes.Stuff/?Vector?angle?definition http://cds.omdoc.org/urtheories?NatSymbols?NAT?type
 DependsOn http://BenniDoes.Stuff/?Vector?angle?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 DependsOn http://BenniDoes.Stuff/?Vector?angle?definition http://BenniDoes.Stuff/?Vector?scalarproduct?type
+Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?angle_between
+constant http://BenniDoes.Stuff/?Vector?angle_between
+DependsOn http://BenniDoes.Stuff/?Vector?angle_between?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?angle_between?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?angle_between?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?angle_between?definition http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?Vector?angle_between?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Vector?angle_between?definition http://BenniDoes.Stuff/?Vector?angle?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?parallel
 constant http://BenniDoes.Stuff/?Vector?parallel
 DependsOn http://BenniDoes.Stuff/?Vector?parallel?type http://mathhub.info/MitM/Foundation?Logic?prop?type

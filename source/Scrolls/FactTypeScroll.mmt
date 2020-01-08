@@ -8,17 +8,15 @@ theory TypedProblem =
     pC : V ❙
 
     pdAC : DF ❙
-    paBeta: AF ❙
-    paGamma: AF ❙
+    paBeta: AF❙
+    paGamma: AF❙
 
-    //saying that the given distance is measured between the right points  ❙
-    AC_correct: ⊦  ( (DF_A pdAC ≐ pA) ∧ ( DF_B pdAC ≐ pC ) ) ∨ ( ( DF_A pdAC ≐ pC ) ∧ ( DF_B pdAC ≐ pA ) )❙
+    ACright: rightEndpoints pA pC pdAC ❙
+    BetaRight: rightPoints pA pB pC  paBeta ❙
+    GammaRight: rightPoints pB pC pA paGamma ❙
 
-    //saying that the given angles are measuered between the right points ❙
-    Beta_correct: ⊦ (AF_L paBeta ≐ pA ) ∧ ( AF_I paBeta  ≐ pB ) ∧ (AF_R paBeta ≐ pC ) ❙
+    
 
-    //saying that gamma = 90° ❙
-    Beta_right: ⊦ (AF_V paBeta) ≐ π / 2 ❙
 ❚
 
 theory TypedSolution =
@@ -32,17 +30,40 @@ theory TypedSituation =
      sB : V ❘ = Vof 1 1 0❙
      sC : V ❘ = Vof 0 1 0❙
 
-     sdAC : DF ❘ = DFof sA sC 1❙
+      sAA : V ❘ = Vof 0 0 1❙
+      sBB : V ❘ = Vof 1 1 1❙
+      sCC : V ❘ = Vof 0 1 1❙
+
+
+     sdAC : DF ❘ = DFof sC sA 1❙
      saBeta : AF ❘ = AFof sA sB sC ( π / 4 ) ❙
-     saGamma: AF ❘ = AFof sB SC sA ( π / 2 ) ❙
+     saGamma: AF ❘ = AFof sB sC sA ( π / 2 ) ❙
+
+     sfake : AF ❘ = AFof sBB sCC sAA (π / 2) ❙
 ❚
 
 view TypedView : ?TypedProblem -> ?TypedSituation =
      pA = sA ❙
      pB = sB ❙
-     pC = SC ❙
+     pC = sC ❙
 
      pdAC = sdAC ❙
      paBeta = saBeta ❙
-     paGamma = saGamma ❙
+     paGamma = sfake ❙
+❚
+
+theory testA =
+    pA:  V ❙
+    pA_rule: ⊦ _x pA ≐ 1  ❙
+❚
+
+theory testB =
+    sA: V ❘  = Vof 1 2 3 ❙
+    sB: V ❘ = Vof 1 4 5 ❙
+    sRule: ⊦ _x sA ≐ 1 ❙
+❚
+
+view testview : ?testA -> ?testB =
+    pA = sA ❙
+    pA_rule =  sRule ❙
 ❚

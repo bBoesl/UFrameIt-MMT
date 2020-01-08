@@ -1,0 +1,34 @@
+dataconstructor http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pA
+dataconstructor http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pB
+dataconstructor http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pC
+dataconstructor http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pdAC
+dataconstructor http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paBeta
+dataconstructor http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paGamma
+HasDomain http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedProblem
+HasCodomain http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedSituation
+view http://BenniDoes.Stuff/?TypedView
+HasViewFrom http://BenniDoes.Stuff/?TypedSituation http://BenniDoes.Stuff/?TypedProblem
+Declares http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pA
+constant http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pA
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pA?definition http://BenniDoes.Stuff/?TypedSituation?sA?type
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pA?definition http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pB
+constant http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pB
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pB?definition http://BenniDoes.Stuff/?TypedSituation?sB?type
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pB?definition http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pC
+constant http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pC
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pC?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pC?definition http://BenniDoes.Stuff/?TypedSituation?sC?type
+Declares http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pdAC
+constant http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pdAC
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pdAC?definition http://BenniDoes.Stuff/?TypedSituation?sdAC?type
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/pdAC?definition http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+Declares http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paBeta
+constant http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paBeta
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paBeta?definition http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paBeta?definition http://BenniDoes.Stuff/?TypedSituation?saBeta?type
+Declares http://BenniDoes.Stuff/?TypedView http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paGamma
+constant http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paGamma
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paGamma?definition http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?TypedView?[http://BenniDoes.Stuff/?TypedProblem]/paGamma?definition http://BenniDoes.Stuff/?TypedSituation?sfake?type

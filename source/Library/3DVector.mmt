@@ -41,6 +41,7 @@ theory Vector : http://mathhub.info/MitM/Foundation?Math =
     vec_cross : V ⟶ V ⟶ V ❘ = [v, w ] Vof ( _y v  ⋅ _z w  - _z v ⋅ _y w ) ( _z v  ⋅ _x w  - _x v ⋅ _z w ) ( _x v  ⋅ _y w  - _y v ⋅ _x w ) ❘ # 1 Vcross  2  ❙
     metric: V ⟶ V ⟶ ℝ ❘= [v,w] n (w ⁻ v) ❘ # d 1 2   ❙
     angle: V ⟶ V ⟶ ℝ ❘ = [v,w] arccos ( < v,w > / ((n v) ⋅ (n w))) ❘ # ≺ 1 2 ❙ // jprec ❙
+    angle_between: V ⟶ V ⟶ V ⟶ ℝ ❘ = [x,y,z] ≺ (x ⁻ y) (z ⁻ y) ❘ # angleBetween 1 2 3 ❙
     parallel: V ⟶ V ⟶ bool ❘ = [v,w] ((≺ v w)  ≐ 0) ∨ ((≺ v w)  ≐ π) ❘ # 1 ∥ 2 ❙
     orthogonal: V ⟶ V ⟶ bool ❘ = [v,w] < v ,w > ≐ 0 ❘ # 1 ⊥⊥ 2   ❙ //  jbot ❙
     rightangle: ℝ ⟶ bool ❘ = [x] x ≐ π / 2  ❘ # ✓ 1❙ //  jcheck ❙

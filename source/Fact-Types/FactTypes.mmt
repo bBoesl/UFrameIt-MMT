@@ -15,6 +15,8 @@ theory DistanceFact =
      PointB_Rule: {a,b,l}  ⊦ ( DF_B ( DFof a b l ) ) ≐ b ❘ role ForwardRule❙
      DistanceLength_Rule: {a,b,l}  ⊦ ( DF_l ( DFof a b l ) ) ≐ l ❘ role ForwardRole❙
 
+     rightEndpoints =  [a,b, df] ⊦( DF_A df ≐ a ∧ DF_B df ≐ b ) ∨ ( DF_A df ≐ b ∧ DF_B df ≐ a ) ❙
+
 ❚
 
 theory AngleFact =
@@ -30,4 +32,6 @@ theory AngleFact =
     inner_Rule: {a,b,c,v} ⊦ ( AF_I ( AFof a b c v)) ≐ b ❘ role ForwardRule ❙
     right_Rule: {a,b,c,v} ⊦ ( AF_R ( AFof a b c v)) ≐ c ❘ role ForwardRule ❙
     value_Rule: {a,b,c,v} ⊦ ( AF_V ( AFof a b c v)) ≐ v ❘ role ForwardRule ❙
+
+    rightPoints = [a, b, c, af] ⊦( AF_L af ≐ a ) ∧ ( AF_I af ≐ b) ∧ (AF_R af ≐ c) ❙
 ❚

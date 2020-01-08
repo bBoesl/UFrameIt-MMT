@@ -1,0 +1,61 @@
+dataconstructor http://BenniDoes.Stuff/?TypedProblem?pA
+dataconstructor http://BenniDoes.Stuff/?TypedProblem?pB
+dataconstructor http://BenniDoes.Stuff/?TypedProblem?pC
+dataconstructor http://BenniDoes.Stuff/?TypedProblem?pdAC
+dataconstructor http://BenniDoes.Stuff/?TypedProblem?paBeta
+dataconstructor http://BenniDoes.Stuff/?TypedProblem?paGamma
+theory http://BenniDoes.Stuff/?TypedProblem
+HasMeta http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?FactCollection
+Declares http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?TypedProblem?pA
+constant http://BenniDoes.Stuff/?TypedProblem?pA
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pA?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?TypedProblem?pB
+constant http://BenniDoes.Stuff/?TypedProblem?pB
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pB?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?TypedProblem?pC
+constant http://BenniDoes.Stuff/?TypedProblem?pC
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pC?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?TypedProblem?pdAC
+constant http://BenniDoes.Stuff/?TypedProblem?pdAC
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://BenniDoes.Stuff/?TypedProblem?pA?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://BenniDoes.Stuff/?DistanceFact?distanceFactCreate?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?pdAC?definition http://BenniDoes.Stuff/?TypedProblem?pC?type
+Declares http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?TypedProblem?paBeta
+constant http://BenniDoes.Stuff/?TypedProblem?paBeta
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?TypedProblem?pA?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?TypedProblem?pB?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?Vector?angle?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paBeta?definition http://BenniDoes.Stuff/?TypedProblem?pC?type
+Declares http://BenniDoes.Stuff/?TypedProblem http://BenniDoes.Stuff/?TypedProblem?paGamma
+constant http://BenniDoes.Stuff/?TypedProblem?paGamma
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?TypedProblem?pB?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?NatLiterals?nat_lit?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?Logic?neq?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?NatLiterals?pos_lit?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?InformalProofs?trivial?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?div?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?TypedProblem?pA?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?Logic?neq?definition
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?standartMathStuff?Pi?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://cds.omdoc.org/urtheories?NatSymbols?NAT?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?AngleFact?angleFactCreate?type
+DependsOn http://BenniDoes.Stuff/?TypedProblem?paGamma?definition http://BenniDoes.Stuff/?TypedProblem?pC?type
