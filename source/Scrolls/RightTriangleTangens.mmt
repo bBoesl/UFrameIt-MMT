@@ -8,8 +8,7 @@ theory RightTriangleTangens_GetAlpha_problem  : http://BenniDoes.Stuff/?BenniDoe
     pB: V ❙
     pC: V ❙
     pGamma: ℝ ❙
-    pGamma_right_proof: ⊦ pGamma ≐ ( π / 2 ) ❙
-    pGamma_proof: ⊦ ( ≺ (pA ⁻ pC ) ( pB ⁻ pC) ) ≐ pGamma ❙
+    pGamma_proof: ⊦ (angleBetween pA pC pB ) ≐ ( π / 2 ) ❙
 
     pdAC: ℝ ❙
     pdAC_Proof: ⊦ (d pA pC ) ≐ pdAC ❙
@@ -20,8 +19,8 @@ theory RightTriangleTangens_GetAlpha_problem  : http://BenniDoes.Stuff/?BenniDoe
 
 theory RightTriangleTangens_GetAlpha_solution : http://BenniDoes.Stuff/?BenniDoesStuff =
     include ?RightTriangleTangens_GetAlpha_problem ❙
-    alpha: ℝ ❘ = arctan (pdBC / pdAC ) ❙
-    alpha_proof: ⊦  ( ≺ (pC ⁻ pA ) ( pB ⁻ pA) ) ≐ alpha ❙
+    Alpha: ℝ ❘ = arctan (pdBC / pdAC ) ❙
+    Alpha_proof: ⊦ ( angleBetween pC pA pB  ) ≐ Alpha ❙
 ❚
 
 theory RightTriangleTangens_GetOpposite_problem  : http://BenniDoes.Stuff/?BenniDoesStuff =
@@ -30,11 +29,10 @@ theory RightTriangleTangens_GetOpposite_problem  : http://BenniDoes.Stuff/?Benni
     pC: V ❙
 
     pGamma: ℝ ❙
-    pGamma_right_proof: ⊦ pGamma ≐ ( π / 2 ) ❙
-    pGamma_proof: ⊦ ( ≺ (pA ⁻ pC ) ( pB ⁻ pC) ) ≐ pGamma ❙
+    pGamma_proof: ⊦ ( ≺ (pA ⁻ pC ) ( pB ⁻ pC) ) ≐ ( π / 2 ) ❙
 
-    pAlpha: ℝ ❘ = arctan (pdBC / pdAC ) ❙
-    pAlpha_proof: ⊦  ( ≺ (pC ⁻ pA ) ( pB ⁻ pA) ) ≐ alpha ❙
+    pAlpha: ℝ ❙
+    pAlpha_proof: ⊦  ( ≺ (pC ⁻ pA ) ( pB ⁻ pA) ) ≐ pAlpha ❙
 
     pdAC: ℝ ❙
     pdAC_Proof: ⊦ (d pA pC ) ≐ pdAC ❙
@@ -42,8 +40,9 @@ theory RightTriangleTangens_GetOpposite_problem  : http://BenniDoes.Stuff/?Benni
 
 ❚
 
-theory RightTriangleTangens_GetAlpha_solution : http://BenniDoes.Stuff/?BenniDoesStuff =
-    dBC_Proof: ℝ ❘ = ( tan pAlpha) /  pdAC ❙
-    dBC_Proof: ⊦ (d PB pC ) ≐ pdBC ❙
+theory RightTriangleTangens_GetOpposite_solution : http://BenniDoes.Stuff/?BenniDoesStuff =
+    include ?RightTriangleTangens_GetOpposite_problem ❙
+    dBC: ℝ ❘ = ( tan pAlpha) /  pdAC ❙
+    dBC_Proof: ⊦ (d pB pC ) ≐ dBC ❙
 
 ❚

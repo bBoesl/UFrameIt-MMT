@@ -2,6 +2,7 @@ namespace http://BenniDoes.Stuff/ ❚
 
 fixmeta http://BenniDoes.Stuff/?FactCollection ❚
 
+
 theory TypedProblem =
     pA : V ❙
     pB : V ❙
@@ -12,10 +13,10 @@ theory TypedProblem =
     paGamma: AF❙
 
     ACright: rightEndpoints pA pC pdAC ❙
-    BetaRight: rightPoints pA pB pC  paBeta ❙
+    BetaRight: rightPoints pA pB pC paBeta ❙
     GammaRight: rightPoints pB pC pA paGamma ❙
 
-    
+
 
 ❚
 
@@ -52,18 +53,25 @@ view TypedView : ?TypedProblem -> ?TypedSituation =
      paGamma = sfake ❙
 ❚
 
-theory testA =
-    pA:  V ❙
-    pA_rule: ⊦ _x pA ≐ 1  ❙
+
+theory problem =
+    pA : V ❙
+    pB : V ❙
+    pdAB: ℝ ❘= π  ❙
+    pdAB_proof : ⊦ (d pA pB) ≐ π / 2 ❙
 ❚
 
-theory testB =
-    sA: V ❘  = Vof 1 2 3 ❙
-    sB: V ❘ = Vof 1 4 5 ❙
-    sRule: ⊦ _x sA ≐ 1 ❙
+theory situation =
+    sA : V  ❘ = Vof 0 0 0 ❙
+    sB : V  ❘ = Vof 0 0 5 ❙
+    sC : V ❘ = Vof 1 2 3❙
+    sdAB = π / 2  ❙
+    sdAB_proof : ⊦ (d sA sB) ≐ sdAB ❙
 ❚
 
-view testview : ?testA -> ?testB =
+view ViewMe : ?problem -> ?situation =
     pA = sA ❙
-    pA_rule =  sRule ❙
+    pB = sB ❙
+    pdAB = sdAB ❙
+    pdAB_proof = sdAB_proof ❙
 ❚
