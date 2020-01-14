@@ -1,0 +1,37 @@
+dataconstructor http://BenniDoes.Stuff/?problem?pA
+dataconstructor http://BenniDoes.Stuff/?problem?pB
+dataconstructor http://BenniDoes.Stuff/?problem?pdAB
+dataconstructor http://BenniDoes.Stuff/?problem?pdAB_proof
+theory http://BenniDoes.Stuff/?problem
+HasMeta http://BenniDoes.Stuff/?problem http://BenniDoes.Stuff/?FactCollection
+Declares http://BenniDoes.Stuff/?problem http://BenniDoes.Stuff/?problem?pA
+constant http://BenniDoes.Stuff/?problem?pA
+DependsOn http://BenniDoes.Stuff/?problem?pA?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problem http://BenniDoes.Stuff/?problem?pB
+constant http://BenniDoes.Stuff/?problem?pB
+DependsOn http://BenniDoes.Stuff/?problem?pB?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problem http://BenniDoes.Stuff/?problem?pdAB
+constant http://BenniDoes.Stuff/?problem?pdAB
+DependsOn http://BenniDoes.Stuff/?problem?pdAB?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB?definition http://BenniDoes.Stuff/?standartMathStuff?Pi?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problem http://BenniDoes.Stuff/?problem?pdAB_proof
+constant http://BenniDoes.Stuff/?problem?pdAB_proof
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://BenniDoes.Stuff/?problem?pB?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?NatLiterals?nat_lit?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?neq?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?NatLiterals?pos_lit?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?InformalProofs?trivial?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?div?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?neq?definition
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://BenniDoes.Stuff/?problem?pA?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://BenniDoes.Stuff/?standartMathStuff?Pi?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://cds.omdoc.org/urtheories?NatSymbols?NAT?type
+DependsOn http://BenniDoes.Stuff/?problem?pdAB_proof?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type

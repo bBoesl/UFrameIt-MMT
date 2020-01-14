@@ -1,0 +1,26 @@
+<omdoc xmlns="http://omdoc.org/ns" xmlns:om="http://www.openmath.org/OpenMath"><theory name="MyTheory" base="http://BenniDoes.Stuff/" meta="http://BenniDoes.Stuff/?FactCollection"><constant name="myAnnotationKey">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1470.74.2:1488.74.20"/></metadata>
+       
+       
+       
+     </constant><constant name="myAnnotationKey2">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1492.75.2:1510.75.20"/></metadata>
+       
+       
+       
+     </constant><constant name="myAnnotationValue">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1514.76.2:1532.76.20"/></metadata>
+       
+       
+       
+     </constant><constant name="myAnnotationValue2">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1536.77.2:1554.77.20"/></metadata>
+       
+       
+       
+     </constant><constant name="test">
+       <metadata><meta property="http://BenniDoes.Stuff/?MyTheory?myAnnotationKey2"><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://BenniDoes.Stuff/" module="myAnnotationValue2"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1625.78.69:1644.78.88"/></metadata></om:OMS></om:OMOBJ></meta><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1558.78.2:1644.78.88"/><meta property="http://gl.mathhub.info/MMT/LFX/TypedHierarchy?Symbols?TypeLevel"><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://cds.omdoc.org/urtheories" module="Kinded" name="kind"></om:OMS></om:OMOBJ></meta></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://cds.omdoc.org/urtheories" module="Typed" name="type"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://mathhub.info/FrameIt/Prototype/Scrolls/FactTypeScroll.mmt#1564.78.8:1568.78.12"/></metadata></om:OMS></om:OMOBJ></type>
+       
+       
+     </constant></theory></omdoc>

@@ -1,0 +1,17 @@
+dataconstructor http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pa
+dataconstructor http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb
+dataconstructor http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest
+HasDomain http://BenniDoes.Stuff/?View http://BenniDoes.Stuff/?Problem
+HasCodomain http://BenniDoes.Stuff/?View http://BenniDoes.Stuff/?Situation
+view http://BenniDoes.Stuff/?View
+HasViewFrom http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Problem
+Declares http://BenniDoes.Stuff/?View http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pa
+constant http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pa
+DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pa?definition http://BenniDoes.Stuff/?Situation?sa?type
+DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pa?definition http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?View http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb
+constant http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb
+DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb?definition http://BenniDoes.Stuff/?Situation?sb?type
+DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb?definition http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?View http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest
+constant http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest

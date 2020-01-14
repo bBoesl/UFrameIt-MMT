@@ -1,0 +1,223 @@
+datatypeconstructor http://BenniDoes.Stuff/?Planes?Plane
+dataconstructor http://BenniDoes.Stuff/?Planes?TriangleToPlane
+dataconstructor http://BenniDoes.Stuff/?Planes?ParametrizedPlane
+dataconstructor http://BenniDoes.Stuff/?Planes?PointNormalPlane
+dataconstructor http://BenniDoes.Stuff/?Planes?PlaneNormal
+dataconstructor http://BenniDoes.Stuff/?Planes?PlaneBase
+datatypeconstructor http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1
+datatypeconstructor http://BenniDoes.Stuff/?Planes?normalAxiom1
+datatypeconstructor http://BenniDoes.Stuff/?Planes?normalAxiom2
+datatypeconstructor http://BenniDoes.Stuff/?Planes?triangleAxiom
+dataconstructor http://BenniDoes.Stuff/?Planes?pointOnPlane
+dataconstructor http://BenniDoes.Stuff/?Planes?lineOnPlane
+dataconstructor http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint
+dataconstructor http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom
+dataconstructor http://BenniDoes.Stuff/?Planes?parallelPlanes
+dataconstructor http://BenniDoes.Stuff/?Planes?samePlane
+dataconstructor http://BenniDoes.Stuff/?Planes?collidePlane
+dataconstructor http://BenniDoes.Stuff/?Planes?collisionLine
+dataconstructor http://BenniDoes.Stuff/?Planes?collisionLineAxiom
+theory http://BenniDoes.Stuff/?Planes
+HasMeta http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Lines
+Includes http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Planes http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?standartMathStuff
+Includes http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Triangle
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?Plane
+constant http://BenniDoes.Stuff/?Planes?Plane
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?TriangleToPlane
+constant http://BenniDoes.Stuff/?Planes?TriangleToPlane
+DependsOn http://BenniDoes.Stuff/?Planes?TriangleToPlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?TriangleToPlane?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?ParametrizedPlane
+constant http://BenniDoes.Stuff/?Planes?ParametrizedPlane
+DependsOn http://BenniDoes.Stuff/?Planes?ParametrizedPlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?ParametrizedPlane?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?PointNormalPlane
+constant http://BenniDoes.Stuff/?Planes?PointNormalPlane
+DependsOn http://BenniDoes.Stuff/?Planes?PointNormalPlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?PointNormalPlane?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?PlaneNormal
+constant http://BenniDoes.Stuff/?Planes?PlaneNormal
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneNormal?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneNormal?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?PlaneBase
+constant http://BenniDoes.Stuff/?Planes?PlaneBase
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBase?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBase?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1
+constant http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://BenniDoes.Stuff/?Planes?ParametrizedPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://BenniDoes.Stuff/?Planes?PlaneBase?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?PlaneBaseAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?normalAxiom1
+constant http://BenniDoes.Stuff/?Planes?normalAxiom1
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://BenniDoes.Stuff/?Vector?normalize?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://BenniDoes.Stuff/?Planes?ParametrizedPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://BenniDoes.Stuff/?Planes?PlaneNormal?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom1?definition http://BenniDoes.Stuff/?Vector?vec_cross?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?normalAxiom2
+constant http://BenniDoes.Stuff/?Planes?normalAxiom2
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://BenniDoes.Stuff/?Vector?normalize?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://BenniDoes.Stuff/?Planes?PlaneNormal?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://BenniDoes.Stuff/?Planes?PointNormalPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?normalAxiom2?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?triangleAxiom
+constant http://BenniDoes.Stuff/?Planes?triangleAxiom
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Planes?ParametrizedPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Triangle?t_2?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Triangle?t_1?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Planes?TriangleToPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?triangleAxiom?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?pointOnPlane
+constant http://BenniDoes.Stuff/?Planes?pointOnPlane
+DependsOn http://BenniDoes.Stuff/?Planes?pointOnPlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?pointOnPlane?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?pointOnPlane?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?pointOnPlane?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?lineOnPlane
+constant http://BenniDoes.Stuff/?Planes?lineOnPlane
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?type http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Vector?vec_add?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Planes?pointOnPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Lines?lineDirection?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://BenniDoes.Stuff/?Lines?basepoint?type
+DependsOn http://BenniDoes.Stuff/?Planes?lineOnPlane?definition http://mathhub.info/MitM/Foundation?Logic?and?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint
+constant http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Vector?orthogonal?definition
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Planes?PlaneNormal?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Lines?lineDirection?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type http://BenniDoes.Stuff/?Vector?orthogonal?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom
+constant http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Planes?pointOnPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Lines?onLine?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://cds.omdoc.org/urtheories?Ded?DED?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Vector?orthogonal?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://cds.omdoc.org/urtheories?Bool?BOOL?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPoint?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Planes?PlaneNormal?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://BenniDoes.Stuff/?Lines?lineDirection?type
+DependsOn http://BenniDoes.Stuff/?Planes?LinePlaneCollisionPointAxiom?type http://mathhub.info/MitM/Foundation?Logic?and?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?parallelPlanes
+constant http://BenniDoes.Stuff/?Planes?parallelPlanes
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?definition http://BenniDoes.Stuff/?Planes?PlaneNormal?type
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?parallelPlanes?definition http://BenniDoes.Stuff/?Vector?parallel?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?samePlane
+constant http://BenniDoes.Stuff/?Planes?samePlane
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://BenniDoes.Stuff/?Planes?pointOnPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://BenniDoes.Stuff/?Planes?PlaneBase?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://BenniDoes.Stuff/?Planes?parallelPlanes?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Planes?samePlane?definition http://mathhub.info/MitM/Foundation?Logic?and?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?collidePlane
+constant http://BenniDoes.Stuff/?Planes?collidePlane
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://BenniDoes.Stuff/?Planes?parallelPlanes?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://BenniDoes.Stuff/?Planes?samePlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://mathhub.info/MitM/Foundation?Logic?not?type
+DependsOn http://BenniDoes.Stuff/?Planes?collidePlane?definition http://mathhub.info/MitM/Foundation?Logic?or?type
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?collisionLine
+constant http://BenniDoes.Stuff/?Planes?collisionLine
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://BenniDoes.Stuff/?Planes?collidePlane?definition
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://BenniDoes.Stuff/?Planes?collidePlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://BenniDoes.Stuff/?Planes?samePlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://mathhub.info/MitM/Foundation?Logic?not?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLine?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+Declares http://BenniDoes.Stuff/?Planes http://BenniDoes.Stuff/?Planes?collisionLineAxiom
+constant http://BenniDoes.Stuff/?Planes?collisionLineAxiom
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://BenniDoes.Stuff/?Planes?lineOnPlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://BenniDoes.Stuff/?Planes?collidePlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://cds.omdoc.org/urtheories?Ded?DED?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://BenniDoes.Stuff/?Planes?Plane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://cds.omdoc.org/urtheories?Bool?BOOL?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://BenniDoes.Stuff/?Planes?samePlane?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://mathhub.info/MitM/Foundation?Logic?not?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://mathhub.info/MitM/Foundation?Logic?and?type
+DependsOn http://BenniDoes.Stuff/?Planes?collisionLineAxiom?type http://BenniDoes.Stuff/?Planes?collisionLine?type

@@ -1,0 +1,100 @@
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?S
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?A
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?B
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?C
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?D
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?line1
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?line2
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?twolines
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?par
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?ratio1
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?ratio2
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?ratio3
+dataconstructor http://BenniDoes.Stuff/?InterceptTheorem?ratio4
+theory http://BenniDoes.Stuff/?InterceptTheorem
+HasMeta http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?Lines
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?standartMathStuff
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?S
+constant http://BenniDoes.Stuff/?InterceptTheorem?S
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?S?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?A
+constant http://BenniDoes.Stuff/?InterceptTheorem?A
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?A?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?B
+constant http://BenniDoes.Stuff/?InterceptTheorem?B
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?B?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?C
+constant http://BenniDoes.Stuff/?InterceptTheorem?C
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?C?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?D
+constant http://BenniDoes.Stuff/?InterceptTheorem?D
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?D?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?line1
+constant http://BenniDoes.Stuff/?InterceptTheorem?line1
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://BenniDoes.Stuff/?Lines?buildLine?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://BenniDoes.Stuff/?Lines?buildLine?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://BenniDoes.Stuff/?InterceptTheorem?S?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://BenniDoes.Stuff/?InterceptTheorem?A?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line1?type http://BenniDoes.Stuff/?InterceptTheorem?B?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?line2
+constant http://BenniDoes.Stuff/?InterceptTheorem?line2
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://BenniDoes.Stuff/?InterceptTheorem?C?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://BenniDoes.Stuff/?Lines?buildLine?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://BenniDoes.Stuff/?Lines?buildLine?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://BenniDoes.Stuff/?InterceptTheorem?S?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?line2?type http://BenniDoes.Stuff/?InterceptTheorem?D?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?twolines
+constant http://BenniDoes.Stuff/?InterceptTheorem?twolines
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://mathhub.info/MitM/Foundation?Logic?not?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?InterceptTheorem?C?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?InterceptTheorem?A?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?InterceptTheorem?D?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?InterceptTheorem?B?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?twolines?type http://BenniDoes.Stuff/?Vector?parallel?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?par
+constant http://BenniDoes.Stuff/?InterceptTheorem?par
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?InterceptTheorem?C?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?InterceptTheorem?A?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?InterceptTheorem?D?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?InterceptTheorem?B?type
+DependsOn http://BenniDoes.Stuff/?InterceptTheorem?par?type http://BenniDoes.Stuff/?Vector?parallel?type
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?ratio1
+constant http://BenniDoes.Stuff/?InterceptTheorem?ratio1
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?ratio2
+constant http://BenniDoes.Stuff/?InterceptTheorem?ratio2
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?ratio3
+constant http://BenniDoes.Stuff/?InterceptTheorem?ratio3
+Declares http://BenniDoes.Stuff/?InterceptTheorem http://BenniDoes.Stuff/?InterceptTheorem?ratio4
+constant http://BenniDoes.Stuff/?InterceptTheorem?ratio4

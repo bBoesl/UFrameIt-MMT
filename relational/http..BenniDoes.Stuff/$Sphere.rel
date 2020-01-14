@@ -1,0 +1,116 @@
+datatypeconstructor http://BenniDoes.Stuff/?Sphere?sphere
+dataconstructor http://BenniDoes.Stuff/?Sphere?sphereAround
+dataconstructor http://BenniDoes.Stuff/?Sphere?center
+dataconstructor http://BenniDoes.Stuff/?Sphere?centerAxiom
+dataconstructor http://BenniDoes.Stuff/?Sphere?radius
+dataconstructor http://BenniDoes.Stuff/?Sphere?radiusAxiom
+dataconstructor http://BenniDoes.Stuff/?Sphere?onSphere
+dataconstructor http://BenniDoes.Stuff/?Sphere?inSphere
+dataconstructor http://BenniDoes.Stuff/?Sphere?collidesSphereLine
+dataconstructor http://BenniDoes.Stuff/?Sphere?circumfenceSphere
+dataconstructor http://BenniDoes.Stuff/?Sphere?areaSphere
+theory http://BenniDoes.Stuff/?Sphere
+HasMeta http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?standartMathStuff
+Includes http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Lines
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?sphere
+constant http://BenniDoes.Stuff/?Sphere?sphere
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?sphereAround
+constant http://BenniDoes.Stuff/?Sphere?sphereAround
+DependsOn http://BenniDoes.Stuff/?Sphere?sphereAround?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?sphereAround?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?sphereAround?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?center
+constant http://BenniDoes.Stuff/?Sphere?center
+DependsOn http://BenniDoes.Stuff/?Sphere?center?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?center?type http://BenniDoes.Stuff/?Sphere?sphere?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?centerAxiom
+constant http://BenniDoes.Stuff/?Sphere?centerAxiom
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://BenniDoes.Stuff/?Sphere?center?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://BenniDoes.Stuff/?Sphere?sphereAround?type
+DependsOn http://BenniDoes.Stuff/?Sphere?centerAxiom?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?radius
+constant http://BenniDoes.Stuff/?Sphere?radius
+DependsOn http://BenniDoes.Stuff/?Sphere?radius?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radius?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?radiusAxiom
+constant http://BenniDoes.Stuff/?Sphere?radiusAxiom
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://BenniDoes.Stuff/?Sphere?sphereAround?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Sphere?radiusAxiom?type http://BenniDoes.Stuff/?Sphere?radius?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?onSphere
+constant http://BenniDoes.Stuff/?Sphere?onSphere
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://BenniDoes.Stuff/?Sphere?center?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Sphere?onSphere?definition http://BenniDoes.Stuff/?Sphere?radius?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?inSphere
+constant http://BenniDoes.Stuff/?Sphere?inSphere
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Sphere?center?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?lessthan?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Sphere?radius?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?collidesSphereLine
+constant http://BenniDoes.Stuff/?Sphere?collidesSphereLine
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Lines?Line?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?exists?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Lines?onLine?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Sphere?inSphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?or?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?circumfenceSphere
+constant http://BenniDoes.Stuff/?Sphere?circumfenceSphere
+DependsOn http://BenniDoes.Stuff/?Sphere?circumfenceSphere?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?circumfenceSphere?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?areaSphere
+constant http://BenniDoes.Stuff/?Sphere?areaSphere
+DependsOn http://BenniDoes.Stuff/?Sphere?areaSphere?type http://BenniDoes.Stuff/?Sphere?sphere?type
+DependsOn http://BenniDoes.Stuff/?Sphere?areaSphere?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type

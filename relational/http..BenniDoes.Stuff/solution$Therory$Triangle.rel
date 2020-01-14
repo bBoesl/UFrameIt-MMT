@@ -1,0 +1,15 @@
+dataconstructor http://BenniDoes.Stuff/?solutionTheroryTriangle?area
+theory http://BenniDoes.Stuff/?solutionTheroryTriangle
+HasMeta http://BenniDoes.Stuff/?solutionTheroryTriangle http://BenniDoes.Stuff/?BenniDoesStuff
+Includes http://BenniDoes.Stuff/?solutionTheroryTriangle http://BenniDoes.Stuff/?problemTheoryTriangle
+Declares http://BenniDoes.Stuff/?solutionTheroryTriangle http://BenniDoes.Stuff/?solutionTheroryTriangle?area
+constant http://BenniDoes.Stuff/?solutionTheroryTriangle?area
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?problemTheoryTriangle?pB?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?Triangle?triangleOf?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?Triangle?area?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?problemTheoryTriangle?pC?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?problemTheoryTriangle?pA?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryTriangle?area?definition http://BenniDoes.Stuff/?Triangle?triangle?type

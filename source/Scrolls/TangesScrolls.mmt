@@ -1,0 +1,27 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+fixmeta http://BenniDoes.Stuff/?ScrollMeta ❚
+
+theory Tangens_Get_dAC_Problem =
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollname "Tangens-dBC" ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollpart ☞http://BenniDoes.Stuff/?ScrollMeta?partProblem ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI ☞http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI "Given a Triangle ABC with a right angle at C, then can the Distance of A to B can be Calculated through the angle at B and the Distance of B to C" ❙
+
+
+    pA: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point A"❙
+    pB: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point B"❙
+    pC: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point C"❙
+
+    pdistBC : DF pB pC ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Distance B C"❙
+    pangleABC: AF pA pB pC ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at B"❙
+    // below is the proof-Part of an Angle-Fact ❙
+    pangleBCA_proof: ⊦ ( AF_v ( AFof pB pC pA  ( π /2 ) ) ) ≐ π / 2 ❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at C (has to be 90°)"❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?parameterType "proof" ❙
+❚
+
+theory Tangens_Get_dAC_Solution =
+    include ?Tangens_Get_dAC_Problem ❙
+    distCA = DFof pA pC ( ( tan ( AF_v  pangleABC) ) ⋅ ( DF_v pdistBC )  ) ❙
+❚

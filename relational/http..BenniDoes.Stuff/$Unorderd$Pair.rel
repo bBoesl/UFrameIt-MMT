@@ -1,0 +1,22 @@
+datatypeconstructor http://BenniDoes.Stuff/?UnorderdPair?VPair
+dataconstructor http://BenniDoes.Stuff/?UnorderdPair?VPair_create
+dataconstructor http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd
+theory http://BenniDoes.Stuff/?UnorderdPair
+HasMeta http://BenniDoes.Stuff/?UnorderdPair http://BenniDoes.Stuff/?BenniDoesStuff
+Declares http://BenniDoes.Stuff/?UnorderdPair http://BenniDoes.Stuff/?UnorderdPair?VPair
+constant http://BenniDoes.Stuff/?UnorderdPair?VPair
+Declares http://BenniDoes.Stuff/?UnorderdPair http://BenniDoes.Stuff/?UnorderdPair?VPair_create
+constant http://BenniDoes.Stuff/?UnorderdPair?VPair_create
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_create?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_create?type http://BenniDoes.Stuff/?UnorderdPair?VPair?type
+Declares http://BenniDoes.Stuff/?UnorderdPair http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd
+constant http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://BenniDoes.Stuff/?UnorderdPair?VPair_create?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://cds.omdoc.org/urtheories?Bool?BOOL?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://BenniDoes.Stuff/?UnorderdPair?VPair?type
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?UnorderdPair?VPair_unorderd?type http://mathhub.info/MitM/Foundation?Logic?eq?type

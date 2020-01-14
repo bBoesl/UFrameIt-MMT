@@ -1,0 +1,59 @@
+dataconstructor http://BenniDoes.Stuff/?situation?sA
+dataconstructor http://BenniDoes.Stuff/?situation?sB
+dataconstructor http://BenniDoes.Stuff/?situation?sC
+dataconstructor http://BenniDoes.Stuff/?situation?sdAB
+dataconstructor http://BenniDoes.Stuff/?situation?sdAB_proof
+theory http://BenniDoes.Stuff/?situation
+HasMeta http://BenniDoes.Stuff/?situation http://BenniDoes.Stuff/?FactCollection
+Declares http://BenniDoes.Stuff/?situation http://BenniDoes.Stuff/?situation?sA
+constant http://BenniDoes.Stuff/?situation?sA
+DependsOn http://BenniDoes.Stuff/?situation?sA?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sA?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sA?definition http://cds.omdoc.org/urtheories?NatSymbols?NAT?type
+DependsOn http://BenniDoes.Stuff/?situation?sA?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sA?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
+Declares http://BenniDoes.Stuff/?situation http://BenniDoes.Stuff/?situation?sB
+constant http://BenniDoes.Stuff/?situation?sB
+DependsOn http://BenniDoes.Stuff/?situation?sB?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sB?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sB?definition http://mathhub.info/MitM/Foundation?NatLiterals?nat_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sB?definition http://cds.omdoc.org/urtheories?NatSymbols?NAT?type
+DependsOn http://BenniDoes.Stuff/?situation?sB?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sB?definition http://mathhub.info/MitM/Foundation?NatLiterals?pos_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sB?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
+Declares http://BenniDoes.Stuff/?situation http://BenniDoes.Stuff/?situation?sC
+constant http://BenniDoes.Stuff/?situation?sC
+DependsOn http://BenniDoes.Stuff/?situation?sC?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sC?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sC?definition http://mathhub.info/MitM/Foundation?NatLiterals?nat_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sC?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sC?definition http://mathhub.info/MitM/Foundation?NatLiterals?pos_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sC?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
+Declares http://BenniDoes.Stuff/?situation http://BenniDoes.Stuff/?situation?sdAB
+constant http://BenniDoes.Stuff/?situation?sdAB
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?div?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?Logic?neq?definition
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?NatLiterals?nat_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?Logic?neq?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://BenniDoes.Stuff/?standartMathStuff?Pi?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://cds.omdoc.org/urtheories?NatSymbols?NAT?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?NatLiterals?pos_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB?definition http://mathhub.info/MitM/Foundation?InformalProofs?trivial?type
+Declares http://BenniDoes.Stuff/?situation http://BenniDoes.Stuff/?situation?sdAB_proof
+constant http://BenniDoes.Stuff/?situation?sdAB_proof
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://BenniDoes.Stuff/?situation?sA?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://BenniDoes.Stuff/?situation?sdAB?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://BenniDoes.Stuff/?situation?sB?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?situation?sdAB_proof?type http://mathhub.info/MitM/Foundation?Logic?eq?type

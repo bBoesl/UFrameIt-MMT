@@ -1,0 +1,137 @@
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges
+dataconstructor http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges
+theory http://BenniDoes.Stuff/?SymmetricTriangles
+HasMeta http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?Triangle
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?standartMathStuff
+Includes http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?Lines
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://BenniDoes.Stuff/?Triangle?beta?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://BenniDoes.Stuff/?Triangle?gamma?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://BenniDoes.Stuff/?Triangle?gamma?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://BenniDoes.Stuff/?Triangle?alpha?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://BenniDoes.Stuff/?Triangle?beta?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://BenniDoes.Stuff/?Triangle?alpha?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_α?type http://BenniDoes.Stuff/?Triangle?b_triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_β?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_edges_γ?type http://BenniDoes.Stuff/?Triangle?b_triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_α_edges?type http://BenniDoes.Stuff/?Triangle?b_triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_β_edges?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?SymmetricTriangles http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges
+constant http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?definition
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?SymmetricTriangles?symmetric_γ_edges?type http://BenniDoes.Stuff/?Triangle?b_triangle?type

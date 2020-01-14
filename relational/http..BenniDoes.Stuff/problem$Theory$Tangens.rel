@@ -1,0 +1,75 @@
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pA
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pB
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pC
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pBeta
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_right_proof
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pdAB
+dataconstructor http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof
+theory http://BenniDoes.Stuff/?problemTheoryTangens
+HasMeta http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?BenniDoesStuff
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pA
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pA
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pA?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pB
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pB
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pB?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pC
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pC
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pC?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pBeta
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pBeta
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pC?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pBeta?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pB?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?Vector?angle?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pBeta_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pA?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pC?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pB?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?Vector?angle?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_proof?type http://BenniDoes.Stuff/?problemTheoryTangens?pA?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_right_proof
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pAlpha_right_proof
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pdAB
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pdAB
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdAB?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problemTheoryTangens http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof
+constant http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://BenniDoes.Stuff/?problemTheoryTangens?pB?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://BenniDoes.Stuff/?problemTheoryTangens?pdAB?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryTangens?pdistProof?type http://BenniDoes.Stuff/?problemTheoryTangens?pA?type

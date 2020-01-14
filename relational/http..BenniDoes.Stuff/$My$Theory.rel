@@ -1,0 +1,18 @@
+untypedconstant http://BenniDoes.Stuff/?MyTheory?myAnnotationKey
+untypedconstant http://BenniDoes.Stuff/?MyTheory?myAnnotationKey2
+untypedconstant http://BenniDoes.Stuff/?MyTheory?myAnnotationValue
+untypedconstant http://BenniDoes.Stuff/?MyTheory?myAnnotationValue2
+dataconstructor http://BenniDoes.Stuff/?MyTheory?test
+theory http://BenniDoes.Stuff/?MyTheory
+HasMeta http://BenniDoes.Stuff/?MyTheory http://BenniDoes.Stuff/?FactCollection
+Declares http://BenniDoes.Stuff/?MyTheory http://BenniDoes.Stuff/?MyTheory?myAnnotationKey
+constant http://BenniDoes.Stuff/?MyTheory?myAnnotationKey
+Declares http://BenniDoes.Stuff/?MyTheory http://BenniDoes.Stuff/?MyTheory?myAnnotationKey2
+constant http://BenniDoes.Stuff/?MyTheory?myAnnotationKey2
+Declares http://BenniDoes.Stuff/?MyTheory http://BenniDoes.Stuff/?MyTheory?myAnnotationValue
+constant http://BenniDoes.Stuff/?MyTheory?myAnnotationValue
+Declares http://BenniDoes.Stuff/?MyTheory http://BenniDoes.Stuff/?MyTheory?myAnnotationValue2
+constant http://BenniDoes.Stuff/?MyTheory?myAnnotationValue2
+Declares http://BenniDoes.Stuff/?MyTheory http://BenniDoes.Stuff/?MyTheory?test
+constant http://BenniDoes.Stuff/?MyTheory?test
+DependsOn http://BenniDoes.Stuff/?MyTheory?test?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type

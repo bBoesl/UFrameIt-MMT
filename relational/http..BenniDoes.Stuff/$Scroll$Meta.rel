@@ -1,0 +1,40 @@
+untypedconstant http://BenniDoes.Stuff/?ScrollMeta?scrollname
+untypedconstant http://BenniDoes.Stuff/?ScrollMeta?scrollpart
+untypedconstant http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI
+untypedconstant http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI
+untypedconstant http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI
+untypedconstant http://BenniDoes.Stuff/?ScrollMeta?parameterType
+dataconstructor http://BenniDoes.Stuff/?ScrollMeta?partProblem
+dataconstructor http://BenniDoes.Stuff/?ScrollMeta?partSolution
+dataconstructor http://BenniDoes.Stuff/?ScrollMeta?paraTypePlain
+dataconstructor http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof
+theory http://BenniDoes.Stuff/?ScrollMeta
+HasMeta http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?FactCollection
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?scrollname
+constant http://BenniDoes.Stuff/?ScrollMeta?scrollname
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?scrollpart
+constant http://BenniDoes.Stuff/?ScrollMeta?scrollpart
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI
+constant http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI
+constant http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI
+constant http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?parameterType
+constant http://BenniDoes.Stuff/?ScrollMeta?parameterType
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?partProblem
+constant http://BenniDoes.Stuff/?ScrollMeta?partProblem
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?partProblem?type http://mathhub.info/MitM/Foundation?Strings?string?type
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?partProblem?definition http://mathhub.info/MitM/Foundation?Strings?string?type
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?partSolution
+constant http://BenniDoes.Stuff/?ScrollMeta?partSolution
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?partSolution?type http://mathhub.info/MitM/Foundation?Strings?string?type
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?partSolution?definition http://mathhub.info/MitM/Foundation?Strings?string?type
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?paraTypePlain
+constant http://BenniDoes.Stuff/?ScrollMeta?paraTypePlain
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?paraTypePlain?type http://mathhub.info/MitM/Foundation?Strings?string?type
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?paraTypePlain?definition http://mathhub.info/MitM/Foundation?Strings?string?type
+Declares http://BenniDoes.Stuff/?ScrollMeta http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof
+constant http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof?type http://mathhub.info/MitM/Foundation?Strings?string?type
+DependsOn http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof?definition http://mathhub.info/MitM/Foundation?Strings?string?type

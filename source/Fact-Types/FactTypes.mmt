@@ -1,37 +1,28 @@
 namespace http://BenniDoes.Stuff/ ❚
 
 fixmeta http://BenniDoes.Stuff/?BenniDoesStuff ❚
+theory UnorderdPair =
+    VPair : type  ❙
+    VPair_create : V ⟶ V ⟶ VPair ❘ # ⋖ 1 2 ⋗ ❙
+    VPair_unorderd: {a : V,b : V}  ⊦ (  true ≐ ( ⋖ a b ⋗ ≐ ⋖ b a ⋗ )  )  ❘ role ForwardRule ❙
+❚
 
 theory DistanceFact =
+    include ☞http://BenniDoes.Stuff/?UnorderdPair ❙
+    DistanceFact : VPair ⟶ type ❙
+    DistanceFact_Sugar =  [a,b] DistanceFact ⋖ a b ⋗ ❘ # DF 1 2 ❙
+    DistanceFact_create: {a,b} ℝ ⟶ DF a b ❘ # DFof 1 2 3 ❙
 
-     distanceFact : type ❘ # DF ❙
-     distanceFactCreate: V ⟶ V ⟶ ℝ ⟶ DF ❘ # DFof 1 2 3 ❙
-
-     PointA: DF ⟶ V ❘# DF_A 1❙
-     PointB: DF ⟶ V ❘# DF_B 1❙
-     DistanceLenght: DF ⟶ ℝ ❘ # DF_l 1 ❙
-
-     PointA_Rule: {a,b,l}  ⊦ ( DF_A ( DFof a b l ) ) ≐ a  ❘ role ForwardRule❙
-     PointB_Rule: {a,b,l}  ⊦ ( DF_B ( DFof a b l ) ) ≐ b ❘ role ForwardRule❙
-     DistanceLength_Rule: {a,b,l}  ⊦ ( DF_l ( DFof a b l ) ) ≐ l ❘ role ForwardRole❙
-
-     rightEndpoints =  [a,b, df] ⊦( DF_A df ≐ a ∧ DF_B df ≐ b ) ∨ ( DF_A df ≐ b ∧ DF_B df ≐ a ) ❙
-
+    DistanceFact_Value: {a,b} DF a b ⟶ ℝ ❘ # DF_v 3 ❙
+    DistanceFact_Rule: {a,b,v} ⊦ (DF_v ( DFof a b v ) ) ≐ v ❘ role ForwardRule ❙
 ❚
 
 theory AngleFact =
-    angleFact : type ❘ # AF ❙
-    angleFactCreate: V ⟶ V ⟶ V ⟶ ℝ ⟶ AF ❘ # AFof 1 2 3 4 ❙
+    include ☞http://BenniDoes.Stuff/?UnorderdPair ❙
+    AngleFact: VPair ⟶ V ⟶ type ❙
+    AngleFact_Sugar = [a,b,c] AngleFact ⋖ a c ⋗ b ❘ # AF 1 2 3 ❙
+    AngleFact_Create :  {a,b,c} ℝ ⟶ AF a b c❘ # AFof 1 2 3 4 ❙
 
-    left : AF ⟶ V ❘ # AF_L ❙
-    inner: AF ⟶ V ❘ # AF_I ❙
-    right: AF ⟶ V ❘ # AF_R ❙
-    value: AF ⟶ ℝ ❘ # AF_V ❙
-
-    left_Rule : {a,b,c,v} ⊦ ( AF_L ( AFof a b c v)) ≐ a ❘ role ForwardRule ❙
-    inner_Rule: {a,b,c,v} ⊦ ( AF_I ( AFof a b c v)) ≐ b ❘ role ForwardRule ❙
-    right_Rule: {a,b,c,v} ⊦ ( AF_R ( AFof a b c v)) ≐ c ❘ role ForwardRule ❙
-    value_Rule: {a,b,c,v} ⊦ ( AF_V ( AFof a b c v)) ≐ v ❘ role ForwardRule ❙
-
-    rightPoints = [a, b, c, af] ⊦( AF_L af ≐ a ) ∧ ( AF_I af ≐ b) ∧ (AF_R af ≐ c) ❙
+    AngleFact_Value: {a,b,c}  AF a b c ⟶ ℝ ❘ # AF_v 4  ❙
+    AngleFact_Rule: {a,b,c,v} ⊦ ( AF_v ( AFof a b c v) ) ≐ v ❘ role ForwardRule ❙
 ❚

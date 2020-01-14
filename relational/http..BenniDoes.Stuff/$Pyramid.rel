@@ -1,0 +1,95 @@
+datatypeconstructor http://BenniDoes.Stuff/?Pyramid?Pyramid
+dataconstructor http://BenniDoes.Stuff/?Pyramid?pyramidOf
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_A
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_A_axiom
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_B
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_B_axiom
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_C
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_C_axiom
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_D
+dataconstructor http://BenniDoes.Stuff/?Pyramid?P_D_axiom
+dataconstructor http://BenniDoes.Stuff/?Pyramid?Volume_Pyramid
+theory http://BenniDoes.Stuff/?Pyramid
+HasMeta http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?standartMathStuff
+Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Triangle
+Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Lines
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?Pyramid
+constant http://BenniDoes.Stuff/?Pyramid?Pyramid
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?pyramidOf
+constant http://BenniDoes.Stuff/?Pyramid?pyramidOf
+DependsOn http://BenniDoes.Stuff/?Pyramid?pyramidOf?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?pyramidOf?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_A
+constant http://BenniDoes.Stuff/?Pyramid?P_A
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_A_axiom
+constant http://BenniDoes.Stuff/?Pyramid?P_A_axiom
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://BenniDoes.Stuff/?Pyramid?pyramidOf?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_A_axiom?type http://BenniDoes.Stuff/?Pyramid?P_A?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_B
+constant http://BenniDoes.Stuff/?Pyramid?P_B
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_B_axiom
+constant http://BenniDoes.Stuff/?Pyramid?P_B_axiom
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://BenniDoes.Stuff/?Pyramid?pyramidOf?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_B_axiom?type http://BenniDoes.Stuff/?Pyramid?P_B?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_C
+constant http://BenniDoes.Stuff/?Pyramid?P_C
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_C_axiom
+constant http://BenniDoes.Stuff/?Pyramid?P_C_axiom
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://BenniDoes.Stuff/?Pyramid?P_C?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://BenniDoes.Stuff/?Pyramid?pyramidOf?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_C_axiom?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_D
+constant http://BenniDoes.Stuff/?Pyramid?P_D
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?P_D_axiom
+constant http://BenniDoes.Stuff/?Pyramid?P_D_axiom
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://BenniDoes.Stuff/?Pyramid?P_D?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://BenniDoes.Stuff/?Pyramid?pyramidOf?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?P_D_axiom?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type
+Declares http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Pyramid?Volume_Pyramid
+constant http://BenniDoes.Stuff/?Pyramid?Volume_Pyramid
+DependsOn http://BenniDoes.Stuff/?Pyramid?Volume_Pyramid?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pyramid?Volume_Pyramid?type http://BenniDoes.Stuff/?Pyramid?Pyramid?type

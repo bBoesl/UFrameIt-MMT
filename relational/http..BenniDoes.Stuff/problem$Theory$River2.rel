@@ -1,0 +1,131 @@
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?av
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?bv
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?cv
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?ev
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?fv
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c_value
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f_value
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f_value
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame
+dataconstructor http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof
+theory http://BenniDoes.Stuff/?problemTheoryRiver2
+HasMeta http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?BenniDoesStuff
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?av
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?av
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?av?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?bv
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?bv
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?bv?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?cv
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?cv
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?cv?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?ev
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?ev
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?ev?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?fv
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?fv
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?fv?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c_value
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c_value
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c_value?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://BenniDoes.Stuff/?problemTheoryRiver2?bv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c_value?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_b_c?type http://BenniDoes.Stuff/?problemTheoryRiver2?cv?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f_value
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f_value
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f_value?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?fv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f_value?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_c_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?cv?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f_value
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f_value
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f_value?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?fv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?ev?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f_value?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?distance_e_f?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://BenniDoes.Stuff/?problemTheoryRiver2?av?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://BenniDoes.Stuff/?problemTheoryRiver2?ev?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://BenniDoes.Stuff/?Lines?buildLine?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://BenniDoes.Stuff/?Lines?buildLine?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_a_c_e?type http://BenniDoes.Stuff/?problemTheoryRiver2?cv?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?fv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?bv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://BenniDoes.Stuff/?Lines?buildLine?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://BenniDoes.Stuff/?Lines?buildLine?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?buildLineProof_b_c_f?type http://BenniDoes.Stuff/?problemTheoryRiver2?cv?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?problemTheoryRiver2?fv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?problemTheoryRiver2?av?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?problemTheoryRiver2?ev?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?problemTheoryRiver2?bv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://mathhub.info/MitM/Foundation?Logic?not?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?proofLinesnotSame?type http://BenniDoes.Stuff/?Vector?parallel?type
+Declares http://BenniDoes.Stuff/?problemTheoryRiver2 http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof
+constant http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?problemTheoryRiver2?fv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?problemTheoryRiver2?av?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?problemTheoryRiver2?ev?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?problemTheoryRiver2?bv?type
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?problemTheoryRiver2?parallelHeightsProof?type http://BenniDoes.Stuff/?Vector?parallel?type

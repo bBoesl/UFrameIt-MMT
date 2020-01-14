@@ -1,0 +1,19 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+theory Problem : ?DistanceFact =
+    pa: V ❙
+    pb: V ❙
+    ptest: DF pa pb ❙
+❚
+
+theory Situation : ?DistanceFact =
+    sa = Vof 0 0 0 ❙
+    sb = Vof 0 0 1 ❙
+    stest = DFof sb sa 1 ❙
+❚
+
+view View : ?Problem -> ?Situation =
+    pa = sa ❙
+    pb = sb ❙
+    ptest = stest ❙
+❚

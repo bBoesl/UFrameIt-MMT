@@ -7,7 +7,7 @@ constant http://BenniDoes.Stuff/?TypedSolution?dBC
 DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
 DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://BenniDoes.Stuff/?AngleFact?value?type
 DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://BenniDoes.Stuff/?TypedProblem?pdAC?type
-DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://mathhub.info/MitM/Foundation?Trigonometry?tan?type
+DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://BenniDoes.Stuff/?standartMathStuff?tan?type
 DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://BenniDoes.Stuff/?AngleFact?angleFact?type
 DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?TypedSolution?dBC?definition http://BenniDoes.Stuff/?DistanceFact?distanceFact?type

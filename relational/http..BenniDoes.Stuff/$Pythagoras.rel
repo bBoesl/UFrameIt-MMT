@@ -1,0 +1,332 @@
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?pythagoras_α
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?pythagoras_β
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1
+dataconstructor http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2
+theory http://BenniDoes.Stuff/?Pythagoras
+HasMeta http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/Foundation?Math
+Includes http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Triangle
+Includes http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Vector
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Pythagoras http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?standartMathStuff
+Includes http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Lines
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?pythagoras_α
+constant http://BenniDoes.Stuff/?Pythagoras?pythagoras_α
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?addition?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?pythagoras_β
+constant http://BenniDoes.Stuff/?Pythagoras?pythagoras_β
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?addition?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ
+constant http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?addition?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α
+constant http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://BenniDoes.Stuff/?Pythagoras?pythagoras_α?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://BenniDoes.Stuff/?Triangle?alpha?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_α?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β
+constant http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://BenniDoes.Stuff/?Triangle?beta?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://BenniDoes.Stuff/?Pythagoras?pythagoras_β?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_β?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ
+constant http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://BenniDoes.Stuff/?Triangle?gamma?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://BenniDoes.Stuff/?Pythagoras?pythagoras_γ?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?pythagoras_theorem_γ?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α
+constant http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Triangle?t_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Triangle?t_3?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Triangle?ha_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Triangle?ha_triangle_lenght?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β
+constant http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Triangle?hb_triangle_lenght?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Triangle?t_3?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Triangle?hb_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Triangle?t_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ
+constant http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Triangle?hc_triangle_lenght?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Triangle?t_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Triangle?t_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Triangle?hc_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α
+constant http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://BenniDoes.Stuff/?Triangle?alpha?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_α?type http://BenniDoes.Stuff/?Pythagoras?geometric_mean_α?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β
+constant http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://BenniDoes.Stuff/?Triangle?beta?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://BenniDoes.Stuff/?Pythagoras?geometric_mean_β?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_β?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ
+constant http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://BenniDoes.Stuff/?Pythagoras?geometric_mean_γ?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://BenniDoes.Stuff/?Triangle?gamma?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?geometric_mean_theorem_γ?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1
+constant http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Triangle?t_3?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Triangle?ha_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2
+constant http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Triangle?t_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Triangle?ha_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1
+constant http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Triangle?hb_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Triangle?t_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2
+constant http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Triangle?t_3?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Triangle?hb_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1
+constant http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Triangle?t_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Triangle?a_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Triangle?hc_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2
+constant http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Triangle?b_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Triangle?t_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Triangle?c_triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Triangle?hc_triangle_point?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1
+constant http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://BenniDoes.Stuff/?Triangle?alpha?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://BenniDoes.Stuff/?Pythagoras?cathetus_α_1?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_1?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2
+constant http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://BenniDoes.Stuff/?Triangle?alpha?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://BenniDoes.Stuff/?Pythagoras?cathetus_α_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_α_2?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1
+constant http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://BenniDoes.Stuff/?Triangle?beta?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://BenniDoes.Stuff/?Pythagoras?cathetus_β_1?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_1?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2
+constant http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://BenniDoes.Stuff/?Triangle?beta?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://BenniDoes.Stuff/?Triangle?triangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_β_2?type http://BenniDoes.Stuff/?Pythagoras?cathetus_β_2?definition
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1
+constant http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://BenniDoes.Stuff/?Triangle?gamma?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_1?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_1?type http://BenniDoes.Stuff/?Triangle?triangle?type
+Declares http://BenniDoes.Stuff/?Pythagoras http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2
+constant http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://BenniDoes.Stuff/?Triangle?gamma?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://BenniDoes.Stuff/?Vector?rightangle?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://BenniDoes.Stuff/?Pythagoras?cathetus_γ_2?definition
+DependsOn http://BenniDoes.Stuff/?Pythagoras?catheus_theorem_γ_2?type http://BenniDoes.Stuff/?Triangle?triangle?type

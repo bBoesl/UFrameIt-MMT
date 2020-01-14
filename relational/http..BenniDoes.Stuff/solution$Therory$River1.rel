@@ -1,0 +1,21 @@
+dataconstructor http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c_value
+dataconstructor http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c
+theory http://BenniDoes.Stuff/?solutionTheroryRiver1
+HasMeta http://BenniDoes.Stuff/?solutionTheroryRiver1 http://BenniDoes.Stuff/?BenniDoesStuff
+Includes http://BenniDoes.Stuff/?solutionTheroryRiver1 http://BenniDoes.Stuff/?problemTheoryRiver1
+Declares http://BenniDoes.Stuff/?solutionTheroryRiver1 http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c_value
+constant http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c_value
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c_value?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?solutionTheroryRiver1 http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c
+constant http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c_value?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://BenniDoes.Stuff/?problemTheoryRiver1?cv?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?solutionTheroryRiver1?distance_a_c?type http://BenniDoes.Stuff/?problemTheoryRiver1?av?type

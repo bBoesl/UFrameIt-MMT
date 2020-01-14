@@ -1,0 +1,34 @@
+dataconstructor http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pA
+dataconstructor http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB
+dataconstructor http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC
+dataconstructor http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC
+dataconstructor http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC
+dataconstructor http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA_proof
+theory http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem
+HasMeta http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?ScrollMeta
+Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pA
+constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pA
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pA?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB
+constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC
+constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC
+constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC?type
+Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC
+constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?AngleFact?AngleFact_Sugar?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pA?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?AngleFact?AngleFact_Sugar?definition
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC?type
+Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA_proof
+constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA_proof

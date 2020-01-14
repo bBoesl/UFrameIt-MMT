@@ -1,0 +1,13 @@
+dataconstructor http://BenniDoes.Stuff/?Situation?sa
+dataconstructor http://BenniDoes.Stuff/?Situation?sb
+dataconstructor http://BenniDoes.Stuff/?Situation?stest
+theory http://BenniDoes.Stuff/?Situation
+HasMeta http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?DistanceFact
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?sa
+constant http://BenniDoes.Stuff/?Situation?sa
+DependsOn http://BenniDoes.Stuff/?Situation?sa?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?sb
+constant http://BenniDoes.Stuff/?Situation?sb
+DependsOn http://BenniDoes.Stuff/?Situation?sb?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?stest
+constant http://BenniDoes.Stuff/?Situation?stest
