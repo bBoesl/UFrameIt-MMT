@@ -10,8 +10,8 @@ DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition htt
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value?type
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?AngleFact?AngleFact_Sugar?type
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create?type
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type
-DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?DistanceFact?DistanceFact_create?type
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?AngleFact?AngleFact_Value?type
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC?type
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Solution?distCA?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type

@@ -1,5 +1,4 @@
 namespace http://BenniDoes.Stuff/ ❚
-
 theory Problem : ?DistanceFact =
     pa: V ❙
     pb: V ❙
@@ -7,9 +6,9 @@ theory Problem : ?DistanceFact =
 ❚
 
 theory Situation : ?DistanceFact =
-    sa = Vof 0 0 0 ❙
+    sa:V ❘ = Vof 0 0 0 ❙
     sb = Vof 0 0 1 ❙
-    stest = DFof sb sa 1 ❙
+    stest = DFof sa sb 1 ❙
 ❚
 
 view View : ?Problem -> ?Situation =

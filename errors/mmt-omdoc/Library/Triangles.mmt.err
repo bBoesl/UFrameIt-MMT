@@ -60,7 +60,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -126,7 +126,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -192,7 +192,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -258,7 +258,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -324,7 +324,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -390,7 +390,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -455,7 +455,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -519,7 +519,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -583,7 +583,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>
@@ -646,7 +646,7 @@ type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid un
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Test$.main(Test.scala:34)</element>
+    <element>com.example.mmtapi.Test$.main(Test.scala:35)</element>
     <element>com.example.mmtapi.Test.main(Test.scala)</element>
   </stacktrace>
 </error>

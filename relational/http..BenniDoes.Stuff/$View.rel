@@ -15,3 +15,5 @@ DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb?defi
 DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/pb?definition http://BenniDoes.Stuff/?Vector?vector?type
 Declares http://BenniDoes.Stuff/?View http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest
 constant http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest
+DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest?definition http://BenniDoes.Stuff/?Situation?stest?type
+DependsOn http://BenniDoes.Stuff/?View?[http://BenniDoes.Stuff/?Problem]/ptest?definition http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
