@@ -2,7 +2,7 @@ dataconstructor http://BenniDoes.Stuff/?Problem?pa
 dataconstructor http://BenniDoes.Stuff/?Problem?pb
 dataconstructor http://BenniDoes.Stuff/?Problem?ptest
 theory http://BenniDoes.Stuff/?Problem
-HasMeta http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?DistanceFact
+HasMeta http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?ScrollMeta
 Declares http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?Problem?pa
 constant http://BenniDoes.Stuff/?Problem?pa
 DependsOn http://BenniDoes.Stuff/?Problem?pa?type http://BenniDoes.Stuff/?Vector?vector?type

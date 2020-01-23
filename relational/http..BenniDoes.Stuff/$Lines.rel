@@ -13,14 +13,14 @@ dataconstructor http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom
 theory http://BenniDoes.Stuff/?Lines
 HasMeta http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/Foundation?Math
 Includes http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Vector
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
-Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?NaturalArithmetics
 Includes http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?standartMathStuff
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?Line
 constant http://BenniDoes.Stuff/?Lines?Line

@@ -22,14 +22,14 @@ dataconstructor http://BenniDoes.Stuff/?Vector?orthogonal
 dataconstructor http://BenniDoes.Stuff/?Vector?rightangle
 theory http://BenniDoes.Stuff/?Vector
 HasMeta http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/Foundation?Math
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
-Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Vector http://mathhub.info/MitM/core/arithmetics?NaturalArithmetics
 Includes http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?standartMathStuff
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?vector
 constant http://BenniDoes.Stuff/?Vector?vector
@@ -88,7 +88,7 @@ DependsOn http://BenniDoes.Stuff/?Vector?v_3_rule?type http://mathhub.info/MitM/
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?vec_add
 constant http://BenniDoes.Stuff/?Vector?vec_add
 DependsOn http://BenniDoes.Stuff/?Vector?vec_add?type http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?Vector?vec_add?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?addition?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_add?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?addition?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_add?definition http://BenniDoes.Stuff/?Vector?v_1?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_add?definition http://BenniDoes.Stuff/?Vector?v_2?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_add?definition http://BenniDoes.Stuff/?Vector?v_3?type
@@ -100,9 +100,9 @@ constant http://BenniDoes.Stuff/?Vector?vec_sub
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://BenniDoes.Stuff/?Vector?v_1?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://BenniDoes.Stuff/?Vector?v_2?type
-DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?subtraction?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://BenniDoes.Stuff/?Vector?v_3?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?subtraction?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_sub?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?vec_mult
@@ -113,20 +113,20 @@ DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.St
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?v_2?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?v_3?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?multiplication?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
-DependsOn http://BenniDoes.Stuff/?Vector?vec_mult?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?scalarproduct
 constant http://BenniDoes.Stuff/?Vector?scalarproduct
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
-DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?addition?type
+DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?addition?type
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://BenniDoes.Stuff/?Vector?v_1?type
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://BenniDoes.Stuff/?Vector?v_2?type
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://BenniDoes.Stuff/?Vector?v_3?type
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?multiplication?type
 DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
-DependsOn http://BenniDoes.Stuff/?Vector?scalarproduct?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?norm
 constant http://BenniDoes.Stuff/?Vector?norm
 DependsOn http://BenniDoes.Stuff/?Vector?norm?type http://BenniDoes.Stuff/?Vector?vector?type
@@ -139,12 +139,12 @@ constant http://BenniDoes.Stuff/?Vector?vec_cross
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://BenniDoes.Stuff/?Vector?v_1?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://BenniDoes.Stuff/?Vector?v_2?type
-DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?subtraction?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://BenniDoes.Stuff/?Vector?v_3?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?multiplication?type
+DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?subtraction?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://BenniDoes.Stuff/?Vector?vectorOf?type
-DependsOn http://BenniDoes.Stuff/?Vector?vec_cross?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?multiplication?type
 Declares http://BenniDoes.Stuff/?Vector http://BenniDoes.Stuff/?Vector?metric
 constant http://BenniDoes.Stuff/?Vector?metric
 DependsOn http://BenniDoes.Stuff/?Vector?metric?type http://BenniDoes.Stuff/?Vector?vector?type

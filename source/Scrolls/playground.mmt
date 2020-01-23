@@ -1,14 +1,30 @@
 namespace http://BenniDoes.Stuff/ ❚
-theory Problem : ?DistanceFact =
-    pa: V ❙
-    pb: V ❙
-    ptest: DF pa pb ❙
+fixmeta http://BenniDoes.Stuff/?ScrollMeta ❚
+theory Problem  =
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollname "playground-scroll" ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollpart ☞http://BenniDoes.Stuff/?ScrollMeta?partProblem ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI ☞http://BenniDoes.Stuff/?Solution ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI "a scroll for testing purposes" ❙
+
+    pa: V ❘meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point A"❙
+    pb: V ❘meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point B"❙
+    ptest: DF pa pb ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Distance A B"❙
 ❚
 
-theory Situation : ?DistanceFact =
-    sa:V ❘ = Vof 0 0 0 ❙
+theory Solution =
+    include ?Problem ❙
+    x = DFof pa pb ( 3.14 + 2 )  ❙
+❚
+
+theory Situation  =
+    sa:V ❘ = Vof 0.0 0 0 ❙
     sb = Vof 0 0 1 ❙
+    sc = Vof 0 1 2 ❙
     stest = DFof sa sb 1 ❙
+    prooftest : ⊦ DF_v (DFof sa sb 1.0 ) ≐ 1.0 ❙
+    angleTest = AFof sa sb sc 10 ❙
+    angleProof:  ⊦ (AF_v (AFof sa sb sc 10) ≐ 10 )❙
+
 ❚
 
 view View : ?Problem -> ?Situation =

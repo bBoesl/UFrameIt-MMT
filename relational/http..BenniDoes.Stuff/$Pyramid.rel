@@ -12,14 +12,14 @@ dataconstructor http://BenniDoes.Stuff/?Pyramid?Volume_Pyramid
 theory http://BenniDoes.Stuff/?Pyramid
 HasMeta http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/Foundation?Math
 Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Vector
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
-Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Pyramid http://mathhub.info/MitM/core/arithmetics?NaturalArithmetics
 Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?standartMathStuff
 Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Triangle
 Includes http://BenniDoes.Stuff/?Pyramid http://BenniDoes.Stuff/?Lines

@@ -12,14 +12,14 @@ dataconstructor http://BenniDoes.Stuff/?Sphere?areaSphere
 theory http://BenniDoes.Stuff/?Sphere
 HasMeta http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/Foundation?Math
 Includes http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Vector
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RealNumbers
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RationalNumbers
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?IntegerNumbers
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?NaturalNumbers
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?RationalArithmetics
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?IntegerArithmetics
-Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/smglom/arithmetics?NaturalArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?RealArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?RealNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?RationalNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?IntegerNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?NaturalNumbers
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?RationalArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?IntegerArithmetics
+Includes http://BenniDoes.Stuff/?Sphere http://mathhub.info/MitM/core/arithmetics?NaturalArithmetics
 Includes http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?standartMathStuff
 Includes http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Lines
 Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?sphere
@@ -87,9 +87,9 @@ DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Vector?metric?type
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
-DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/smglom/arithmetics?RealArithmetics?lessthan?type
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Sphere?sphere?type
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?lessthan?type
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Sphere?radius?type
 Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?collidesSphereLine
 constant http://BenniDoes.Stuff/?Sphere?collidesSphereLine

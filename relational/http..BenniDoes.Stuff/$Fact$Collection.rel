@@ -1,5 +1,4 @@
 theory http://BenniDoes.Stuff/?FactCollection
 HasMeta http://BenniDoes.Stuff/?FactCollection http://BenniDoes.Stuff/?BenniDoesStuff
 Includes http://BenniDoes.Stuff/?FactCollection http://BenniDoes.Stuff/?DistanceFact
-Includes http://BenniDoes.Stuff/?FactCollection http://BenniDoes.Stuff/?UnorderdPair
 Includes http://BenniDoes.Stuff/?FactCollection http://BenniDoes.Stuff/?AngleFact

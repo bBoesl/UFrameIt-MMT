@@ -1,0 +1,11 @@
+dataconstructor http://BenniDoes.Stuff/?Solution?x
+theory http://BenniDoes.Stuff/?Solution
+HasMeta http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?ScrollMeta
+Includes http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Problem
+Declares http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Solution?x
+constant http://BenniDoes.Stuff/?Solution?x
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Problem?pa?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Problem?pb?type

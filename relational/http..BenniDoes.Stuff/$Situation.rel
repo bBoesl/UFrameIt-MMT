@@ -1,13 +1,26 @@
 dataconstructor http://BenniDoes.Stuff/?Situation?sa
 dataconstructor http://BenniDoes.Stuff/?Situation?sb
+dataconstructor http://BenniDoes.Stuff/?Situation?sc
 dataconstructor http://BenniDoes.Stuff/?Situation?stest
+dataconstructor http://BenniDoes.Stuff/?Situation?prooftest
+dataconstructor http://BenniDoes.Stuff/?Situation?angleTest
+dataconstructor http://BenniDoes.Stuff/?Situation?angleProof
 theory http://BenniDoes.Stuff/?Situation
-HasMeta http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?DistanceFact
+HasMeta http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?ScrollMeta
 Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?sa
 constant http://BenniDoes.Stuff/?Situation?sa
 DependsOn http://BenniDoes.Stuff/?Situation?sa?type http://BenniDoes.Stuff/?Vector?vector?type
 Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?sb
 constant http://BenniDoes.Stuff/?Situation?sb
 DependsOn http://BenniDoes.Stuff/?Situation?sb?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?sc
+constant http://BenniDoes.Stuff/?Situation?sc
+DependsOn http://BenniDoes.Stuff/?Situation?sc?type http://BenniDoes.Stuff/?Vector?vector?type
 Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?stest
 constant http://BenniDoes.Stuff/?Situation?stest
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?prooftest
+constant http://BenniDoes.Stuff/?Situation?prooftest
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?angleTest
+constant http://BenniDoes.Stuff/?Situation?angleTest
+Declares http://BenniDoes.Stuff/?Situation http://BenniDoes.Stuff/?Situation?angleProof
+constant http://BenniDoes.Stuff/?Situation?angleProof
