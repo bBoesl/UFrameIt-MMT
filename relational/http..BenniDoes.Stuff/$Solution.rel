@@ -1,11 +1,41 @@
+dataconstructor http://BenniDoes.Stuff/?Solution?s
+dataconstructor http://BenniDoes.Stuff/?Solution?playScroll
 dataconstructor http://BenniDoes.Stuff/?Solution?x
 theory http://BenniDoes.Stuff/?Solution
 HasMeta http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?ScrollMeta
 Includes http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Problem
+Declares http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Solution?s
+constant http://BenniDoes.Stuff/?Solution?s
+DependsOn http://BenniDoes.Stuff/?Solution?s?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Solution?s?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Solution?playScroll
+constant http://BenniDoes.Stuff/?Solution?playScroll
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?Solution?s?type
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?Problem?pa?type
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?Solution?s?definition
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Solution?playScroll?type http://BenniDoes.Stuff/?Problem?pb?type
 Declares http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Solution?x
 constant http://BenniDoes.Stuff/?Solution?x
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Solution?s?type
 DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Problem?pa?type
-DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Solution?s?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition
 DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 DependsOn http://BenniDoes.Stuff/?Solution?x?type http://BenniDoes.Stuff/?Problem?pb?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?Solution?playScroll?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?Problem?pa?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?Solution?s?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Solution?x?definition http://BenniDoes.Stuff/?Problem?pb?type

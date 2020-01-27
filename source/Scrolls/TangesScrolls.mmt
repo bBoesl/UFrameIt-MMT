@@ -13,15 +13,24 @@ theory Tangens_Get_dAC_Problem =
     pB: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point B"❙
     pC: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point C"❙
 
-    pdistBC : DF pB pC ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Distance B C"❙
-    pangleABC: AF pA pB pC ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at B"❙
-    // below is the proof-Part of an Angle-Fact ❙
-    pangleBCA_proof: ⊦ ( AF_v ( AFof pB pC pA  ( π /2 ) ) ) ≐ π / 2 ❘
-        meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at C (has to be 90°)"❘
-        meta http://BenniDoes.Stuff/?ScrollMeta?parameterType "proof" ❙
+    pdistBC_v : ℝ ❙
+    pdistBC : DF pB pC pdistBC_v ❘
+      meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Distance B C" ❘
+      meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pdistBC_v❙
+    pangleABC_v : ℝ ❙
+    pangleABC: AF pA pB pC pangleABC_v ❘
+     meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at B" ❘
+     meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC_v❙
+    pangleBCA: AF pB pC pA ( π / 2.0 )❘
+     meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at C (has to be 90°)" ❘
+     meta http://BenniDoes.Stuff/?ScrollMeta?parameterType ☞http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof❙
+
+
 ❚
 
 theory Tangens_Get_dAC_Solution =
     include ?Tangens_Get_dAC_Problem ❙
-    distCA = DFof pA pC ( ( tan ( AF_v  pangleABC) ) ⋅ ( DF_v pdistBC )  ) ❙
+    distCA_v : ℝ ❘ = ( tan pangleABC_v ) ⋅ pdistBC_v ❙
+    tangensScroll: V ⟶ V ⟶ V ⟶ DF pA pC distCA_v ❙
+    distCA = tangensScroll pA pB pC  ❙
 ❚

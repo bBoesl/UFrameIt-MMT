@@ -1,45 +1,13 @@
-datatypeconstructor http://BenniDoes.Stuff/?DistanceFact?DistanceFact
-datatypeconstructor http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar
-dataconstructor http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create
-dataconstructor http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value
-dataconstructor http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule
+datatypeconstructor http://BenniDoes.Stuff/?DistanceFact?distanceFact
 theory http://BenniDoes.Stuff/?DistanceFact
 HasMeta http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?BenniDoesStuff
 Includes http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?UnorderdPair
-Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?DistanceFact
-constant http://BenniDoes.Stuff/?DistanceFact?DistanceFact
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact?type http://BenniDoes.Stuff/?UnorderdPair?VPair?type
-Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar
-constant http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition http://BenniDoes.Stuff/?UnorderdPair?VPair_create?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition http://BenniDoes.Stuff/?UnorderdPair?VPair?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition http://BenniDoes.Stuff/?DistanceFact?DistanceFact?type
-Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create
-constant http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create?type http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
-Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value
-constant http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value?type http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
-Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule
-constant http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?UnorderdPair?VPair_create?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Value?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Create?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?UnorderdPair?VPair?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact?type
-DependsOn http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Rule?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?distanceFact
+constant http://BenniDoes.Stuff/?DistanceFact?distanceFact
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://BenniDoes.Stuff/?Vector?metric?type
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://mathhub.info/MitM/Foundation?Logic?eq?type

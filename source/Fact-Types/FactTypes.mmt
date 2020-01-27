@@ -9,20 +9,10 @@ theory UnorderdPair =
 
 theory DistanceFact =
     include ☞http://BenniDoes.Stuff/?UnorderdPair ❙
-    DistanceFact : VPair ⟶ type ❙
-    DistanceFact_Sugar =  [a,b] DistanceFact ⋖ a b ⋗ ❘ # DF 1 2 ❙
-    DistanceFact_Create: {a,b} ℝ ⟶ DF a b ❘ # DFof 1 2 3 ❙
-
-    DistanceFact_Value: {a,b} DF a b ⟶ ℝ ❘ # DF_v 3 ❙
-    DistanceFact_Rule: {a,b,v} ⊦ (DF_v ( DFof a b v ) ) ≐ v ❘ role ForwardRule ❙
+    distanceFact = [a: V,b: V, c : ℝ] ⊦ ( ( d a b) ≐ c )❘ # DF 1 2 3 ❙
 ❚
 
 theory AngleFact =
     include ☞http://BenniDoes.Stuff/?UnorderdPair ❙
-    AngleFact: VPair ⟶ V ⟶ type ❙
-    AngleFact_Sugar = [a,b,c] AngleFact ⋖ a c ⋗ b ❘ # AF 1 2 3 ❙
-    AngleFact_Create :  {a,b,c} ℝ ⟶ AF a b c❘ # AFof 1 2 3 4 ❙
-
-    AngleFact_Value: {a,b,c}  AF a b c ⟶ ℝ ❘ # AF_v 4  ❙
-    AngleFact_Rule: {a,b,c,v} ⊦ ( AF_v ( AFof a b c v) ) ≐ v ❘ role ForwardRule ❙
+    angleFact = [a: V, b: V, c: V, v : ℝ] ⊦ ( angleBetween a b c ) ≐ v ❘ # AF 1 2 3 4❙
 ❚

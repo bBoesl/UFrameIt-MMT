@@ -1,5 +1,6 @@
 dataconstructor http://BenniDoes.Stuff/?Problem?pa
 dataconstructor http://BenniDoes.Stuff/?Problem?pb
+dataconstructor http://BenniDoes.Stuff/?Problem?r
 dataconstructor http://BenniDoes.Stuff/?Problem?ptest
 theory http://BenniDoes.Stuff/?Problem
 HasMeta http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?ScrollMeta
@@ -9,10 +10,16 @@ DependsOn http://BenniDoes.Stuff/?Problem?pa?type http://BenniDoes.Stuff/?Vector
 Declares http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?Problem?pb
 constant http://BenniDoes.Stuff/?Problem?pb
 DependsOn http://BenniDoes.Stuff/?Problem?pb?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?Problem?r
+constant http://BenniDoes.Stuff/?Problem?r
+DependsOn http://BenniDoes.Stuff/?Problem?r?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 Declares http://BenniDoes.Stuff/?Problem http://BenniDoes.Stuff/?Problem?ptest
 constant http://BenniDoes.Stuff/?Problem?ptest
 DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?Problem?pa?type
-DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?type
+DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition
 DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?Vector?vector?type
-DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?DistanceFact?DistanceFact_Sugar?definition
+DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?Problem?r?type
+DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?DistanceFact?distanceFact?type
+DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 DependsOn http://BenniDoes.Stuff/?Problem?ptest?type http://BenniDoes.Stuff/?Problem?pb?type

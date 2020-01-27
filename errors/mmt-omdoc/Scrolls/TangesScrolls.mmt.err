@@ -1,5 +1,5 @@
 <errors>
-<error type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid unit: http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA_proof?type: Judgment  |- ⊦AF_v AFof pB pC pA (π)/(2)≐(π)/(2) INHABITABLE" level="2">
+<error type="info.kwarc.mmt.api.checking.RuleBasedChecker$$anon$3" shortMsg="invalid unit: http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type: Judgment  |- AF pB pC pA (π)/(2.0) INHABITABLE" level="2">
   <stacktrace>
     <element>info.kwarc.mmt.api.checking.RuleBasedChecker.$anonfun$apply$17(RuleBasedChecker.scala:99)</element>
     <element>info.kwarc.mmt.api.checking.RuleBasedChecker.$anonfun$apply$17$adapted(RuleBasedChecker.scala:98)</element>
@@ -59,7 +59,7 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:57)</element>
+    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
     <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
