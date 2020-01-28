@@ -1,7 +1,6 @@
 datatypeconstructor http://BenniDoes.Stuff/?AngleFact?angleFact
 theory http://BenniDoes.Stuff/?AngleFact
 HasMeta http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?BenniDoesStuff
-Includes http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?UnorderdPair
 Declares http://BenniDoes.Stuff/?AngleFact http://BenniDoes.Stuff/?AngleFact?angleFact
 constant http://BenniDoes.Stuff/?AngleFact?angleFact
 DependsOn http://BenniDoes.Stuff/?AngleFact?angleFact?definition http://mathhub.info/MitM/Foundation?Logic?ded?type

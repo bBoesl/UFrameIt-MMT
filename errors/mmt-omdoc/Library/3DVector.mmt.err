@@ -58,8 +58,8 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
-    <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
+    <element>com.example.mmtapi.FrameItLogic$.apply(FrameItLogic.scala:14)</element>
+    <element>com.example.mmtapi.Server$.main(Server.scala:34)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
 </error>
@@ -122,8 +122,8 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
-    <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
+    <element>com.example.mmtapi.FrameItLogic$.apply(FrameItLogic.scala:14)</element>
+    <element>com.example.mmtapi.Server$.main(Server.scala:34)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
 </error>
@@ -186,8 +186,8 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
-    <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
+    <element>com.example.mmtapi.FrameItLogic$.apply(FrameItLogic.scala:14)</element>
+    <element>com.example.mmtapi.Server$.main(Server.scala:34)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
 </error>
@@ -250,8 +250,8 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
-    <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
+    <element>com.example.mmtapi.FrameItLogic$.apply(FrameItLogic.scala:14)</element>
+    <element>com.example.mmtapi.Server$.main(Server.scala:34)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
 </error>
@@ -314,8 +314,8 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
-    <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
+    <element>com.example.mmtapi.FrameItLogic$.apply(FrameItLogic.scala:14)</element>
+    <element>com.example.mmtapi.Server$.main(Server.scala:34)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
 </error>
@@ -378,8 +378,8 @@
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine(ActionHandling.scala:33)</element>
     <element>info.kwarc.mmt.api.frontend.actions.ActionHandling.handleLine$(ActionHandling.scala:31)</element>
     <element>info.kwarc.mmt.api.frontend.Controller.handleLine(Controller.scala:74)</element>
-    <element>com.example.mmtapi.Server$.initMMT(Server.scala:55)</element>
-    <element>com.example.mmtapi.Server$.main(Server.scala:30)</element>
+    <element>com.example.mmtapi.FrameItLogic$.apply(FrameItLogic.scala:14)</element>
+    <element>com.example.mmtapi.Server$.main(Server.scala:34)</element>
     <element>com.example.mmtapi.Server.main(Server.scala)</element>
   </stacktrace>
 </error>

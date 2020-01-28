@@ -1,7 +1,6 @@
 datatypeconstructor http://BenniDoes.Stuff/?DistanceFact?distanceFact
 theory http://BenniDoes.Stuff/?DistanceFact
 HasMeta http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?BenniDoesStuff
-Includes http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?UnorderdPair
 Declares http://BenniDoes.Stuff/?DistanceFact http://BenniDoes.Stuff/?DistanceFact?distanceFact
 constant http://BenniDoes.Stuff/?DistanceFact?distanceFact
 DependsOn http://BenniDoes.Stuff/?DistanceFact?distanceFact?definition http://mathhub.info/MitM/Foundation?Logic?ded?type

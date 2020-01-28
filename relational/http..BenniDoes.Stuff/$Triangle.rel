@@ -177,9 +177,9 @@ DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://B
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://BenniDoes.Stuff/?Vector?orthogonal?type
-DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://BenniDoes.Stuff/?Triangle?t_1?type
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://BenniDoes.Stuff/?Triangle?ha_triangle_point?type
 DependsOn http://BenniDoes.Stuff/?Triangle?ha_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?and?type
@@ -209,9 +209,9 @@ DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://B
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://BenniDoes.Stuff/?Vector?orthogonal?type
-DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://BenniDoes.Stuff/?Triangle?hb_triangle_point?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://BenniDoes.Stuff/?Triangle?t_1?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hb_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?and?type
@@ -241,9 +241,9 @@ DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://B
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://BenniDoes.Stuff/?Vector?orthogonal?type
-DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://BenniDoes.Stuff/?Triangle?hb_triangle_point?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://BenniDoes.Stuff/?Triangle?t_1?type
 DependsOn http://BenniDoes.Stuff/?Triangle?hc_triangle_point_axiom?type http://mathhub.info/MitM/Foundation?Logic?and?type

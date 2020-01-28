@@ -8,11 +8,13 @@ theory UnorderdPair =
 ❚
 
 theory DistanceFact =
-    include ☞http://BenniDoes.Stuff/?UnorderdPair ❙
     distanceFact = [a: V,b: V, c : ℝ] ⊦ ( ( d a b) ≐ c )❘ # DF 1 2 3 ❙
 ❚
 
 theory AngleFact =
-    include ☞http://BenniDoes.Stuff/?UnorderdPair ❙
     angleFact = [a: V, b: V, c: V, v : ℝ] ⊦ ( angleBetween a b c ) ≐ v ❘ # AF 1 2 3 4❙
+❚
+
+theory OnLineFact =
+    onLineFact = [a:V, b: L] ⊦ ( a VonL b ) ❘ # LF 1 2 ❙
 ❚

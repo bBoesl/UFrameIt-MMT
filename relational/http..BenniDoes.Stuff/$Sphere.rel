@@ -93,15 +93,15 @@ DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://mathhub.info
 DependsOn http://BenniDoes.Stuff/?Sphere?inSphere?definition http://BenniDoes.Stuff/?Sphere?radius?type
 Declares http://BenniDoes.Stuff/?Sphere http://BenniDoes.Stuff/?Sphere?collidesSphereLine
 constant http://BenniDoes.Stuff/?Sphere?collidesSphereLine
-DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?type http://BenniDoes.Stuff/?Sphere?sphere?type
-DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?exists?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Sphere?sphere?type
 DependsOn http://BenniDoes.Stuff/?Sphere?collidesSphereLine?definition http://BenniDoes.Stuff/?Sphere?inSphere?type

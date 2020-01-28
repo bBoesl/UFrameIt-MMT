@@ -1,0 +1,13 @@
+datatypeconstructor http://BenniDoes.Stuff/?OnLineFact?onLineFact
+theory http://BenniDoes.Stuff/?OnLineFact
+HasMeta http://BenniDoes.Stuff/?OnLineFact http://BenniDoes.Stuff/?BenniDoesStuff
+Declares http://BenniDoes.Stuff/?OnLineFact http://BenniDoes.Stuff/?OnLineFact?onLineFact
+constant http://BenniDoes.Stuff/?OnLineFact?onLineFact
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?type http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition http://mathhub.info/MitM/Foundation?Logic?ded?type
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition http://BenniDoes.Stuff/?Lines?onLine?type

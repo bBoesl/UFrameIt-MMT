@@ -1,4 +1,4 @@
-datatypeconstructor http://BenniDoes.Stuff/?Lines?Line
+datatypeconstructor http://BenniDoes.Stuff/?Lines?line
 dataconstructor http://BenniDoes.Stuff/?Lines?lineOf
 dataconstructor http://BenniDoes.Stuff/?Lines?lineDirection
 dataconstructor http://BenniDoes.Stuff/?Lines?lineDirection_rule
@@ -22,93 +22,93 @@ Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics
 Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?IntegerArithmetics
 Includes http://BenniDoes.Stuff/?Lines http://mathhub.info/MitM/core/arithmetics?NaturalArithmetics
 Includes http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?standartMathStuff
-Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?Line
-constant http://BenniDoes.Stuff/?Lines?Line
+Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?line
+constant http://BenniDoes.Stuff/?Lines?line
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?lineOf
 constant http://BenniDoes.Stuff/?Lines?lineOf
-DependsOn http://BenniDoes.Stuff/?Lines?lineOf?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineOf?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Lines?lineOf?type http://BenniDoes.Stuff/?Lines?line?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?lineDirection
 constant http://BenniDoes.Stuff/?Lines?lineDirection
-DependsOn http://BenniDoes.Stuff/?Lines?lineDirection?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Lines?lineDirection?type http://BenniDoes.Stuff/?Lines?line?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?lineDirection_rule
 constant http://BenniDoes.Stuff/?Lines?lineDirection_rule
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Vector?normalize?type
-DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Lines?lineOf?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Vector?vec_sub?type
+DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://BenniDoes.Stuff/?Lines?lineDirection?type
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
 DependsOn http://BenniDoes.Stuff/?Lines?lineDirection_rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?basepoint
 constant http://BenniDoes.Stuff/?Lines?basepoint
-DependsOn http://BenniDoes.Stuff/?Lines?basepoint?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Lines?basepoint?type http://BenniDoes.Stuff/?Lines?line?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?basepoint_rule
 constant http://BenniDoes.Stuff/?Lines?basepoint_rule
-DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://BenniDoes.Stuff/?Lines?lineOf?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://BenniDoes.Stuff/?Lines?basepoint?type
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
 DependsOn http://BenniDoes.Stuff/?Lines?basepoint_rule?type http://mathhub.info/MitM/Foundation?Logic?eq?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?onLine
 constant http://BenniDoes.Stuff/?Lines?onLine
-DependsOn http://BenniDoes.Stuff/?Lines?onLine?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?onLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Lines?onLine?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Lines?onLine?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?onLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?buildLine
 constant http://BenniDoes.Stuff/?Lines?buildLine
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?type http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
-DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://BenniDoes.Stuff/?Lines?lineOf?type
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
 DependsOn http://BenniDoes.Stuff/?Lines?buildLine?definition http://BenniDoes.Stuff/?Lines?onLine?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?sameLine
 constant http://BenniDoes.Stuff/?Lines?sameLine
-DependsOn http://BenniDoes.Stuff/?Lines?sameLine?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Lines?sameLine?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
-DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Lines?lineDirection?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Lines?basepoint?type
+DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://mathhub.info/MitM/Foundation?Logic?and?type
 DependsOn http://BenniDoes.Stuff/?Lines?sameLine?definition http://BenniDoes.Stuff/?Vector?parallel?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?collideLine
 constant http://BenniDoes.Stuff/?Lines?collideLine
-DependsOn http://BenniDoes.Stuff/?Lines?collideLine?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Lines?collideLine?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
-DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://mathhub.info/MitM/Foundation?Logic?exists?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://BenniDoes.Stuff/?Vector?vector?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://mathhub.info/MitM/Foundation?Logic?and?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?pointOfIntersection
 constant http://BenniDoes.Stuff/?Lines?pointOfIntersection
-DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://BenniDoes.Stuff/?Lines?collideLine?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://mathhub.info/MitM/Foundation?Logic?prop?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://mathhub.info/MitM/Foundation?Logic?not?type
@@ -125,9 +125,9 @@ DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://Ben
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://cds.omdoc.org/urtheories?Ded?DED?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://BenniDoes.Stuff/?Lines?sameLine?type
-DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://BenniDoes.Stuff/?Lines?Line?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://cds.omdoc.org/urtheories?Bool?BOOL?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://mathhub.info/MitM/Foundation?Logic?ded?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://mathhub.info/MitM/Foundation?Logic?not?type
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom?type http://mathhub.info/MitM/Foundation?Logic?and?type
