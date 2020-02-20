@@ -19,6 +19,7 @@ theory Lines : http://mathhub.info/MitM/Foundation?Math =
     buildLine : V ⟶ V ⟶ V ⟶ bool ❘ = [A,B,C] A VonL ( Lof B C)  ❘ # ∖ 1 2 3  ❙
     sameLine: L ⟶ L ⟶ bool ❘ = [A ,B] ( Lbase( B ) VonL A ) ∧ ( ( Ldir B ) ∥ ( Ldir A ) ) ❘ # Lsame 1 2❙
     collideLine: L ⟶ L ⟶ bool ❘ = [A,B] ∃ [v] ( v VonL A ) ∧ ( v VonL B ) ❘ # colL 1 2 ❙
+    parallelLine: L ⟶ L ⟶ bool ❘ = [A,B] Ldir A ∥ Ldir B ❘ # paraL 1 2 ❙
     // pointOfIntersection = [A :L , B: L , p1 : ⊦ colL A B, p2 : ⊦ ¬ sameL A B] OV ❙
     pointOfIntersection : {A ,B } ( ⊦ colL A B ) ⟶ ( ⊦ ¬ Lsame A B ) ⟶ V ❘ # colLV 1 2 3 4  ❙
     pointOfIntersectionAxiom: {A, B, p1, p2} ⊦ ( ( colLV A B  p1  p2) VonL A ) ∧ ( ( colLV A B  p1 p2 ) VonL B  )❙

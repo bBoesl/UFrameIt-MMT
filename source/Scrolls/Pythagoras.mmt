@@ -1,0 +1,37 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+fixmeta http://BenniDoes.Stuff/?ScrollMeta ❚
+
+theory Pythagoras_Get_dAB_Problem =
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollname "Pythagoras-Hypothenuse" ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollpart ☞http://BenniDoes.Stuff/?ScrollMeta?partProblem ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI ☞http://BenniDoes.Stuff/?Pythagoras_Get_dAB_Solution ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI "Given a right triangle ABC with the right angle at C, then d(A,B) = sqrt( d (A,C) ^2 + d (B,C)^2) " ❙
+
+
+    pA: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point A"❙
+    pB: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point B"❙
+    pC: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point C"❙
+
+    pdistAC_v : ℝ ❙
+    pdistAC : DF pA pC pdistAC_v ❘
+      meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Distance A C" ❘
+      meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?Pythagoras_Get_dAB_Problem?pdistAC_v❙
+
+    pdistBC_v : ℝ ❙
+    pdistBC : DF pB pC pdistBC_v ❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Distance B C" ❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?Pythagoras_Get_dAB_Problem?pdistBC_v❙
+    pangleBCA: AF pB pC pA ( 90.0 )❘
+     meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at C (has to be 90°)" ❘
+     meta http://BenniDoes.Stuff/?ScrollMeta?parameterType ☞http://BenniDoes.Stuff/?ScrollMeta?paraTypeProof❙
+
+
+❚
+
+theory Pythagoras_Get_dAB_Solution =
+    include ?Pythagoras_Get_dAB_Problem ❙
+    distAB_v : ℝ ❘ = √ ( pdistAC_v ⋅ pdistAC_v + pdistBC_v ⋅ pdistBC_v ) ❙
+    pythagorasScroll: V ⟶ V ⟶ V ⟶ DF pA pB distAB_v ❙
+    distCA = pythagorasScroll pA pB pC  ❙
+❚

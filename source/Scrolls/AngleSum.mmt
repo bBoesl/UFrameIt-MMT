@@ -1,0 +1,32 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+fixmeta http://BenniDoes.Stuff/?ScrollMeta ❚
+
+theory AngleSum_get_Gamma_Problem =
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollname "AngleSum of triangles" ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollpart ☞http://BenniDoes.Stuff/?ScrollMeta?partProblem ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI ☞http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI "Given a  triangle ABC , then gama = 180 - alpha -beta " ❙
+
+
+    pA: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point A"❙
+    pB: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point B"❙
+    pC: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point C"❙
+
+    palpha_v: ℝ ❙
+    palpha: AF pB pA pC ( palpha_v )❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at A " ❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha_v❙
+
+    pbeta_v: ℝ ❙
+    pbeta: AF pA pB pC ( pbeta_v )❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle at B" ❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha_v❙
+❚
+
+theory AngleSum_get_Gamma_Solution =
+    include ?AngleSum_get_Gamma_Problem ❙
+    gamma_v : ℝ ❘ = 180.0 - palpha_v - pbeta_v ❙
+    angleSumScroll: {a, b } ( AF pB pA pC a) ⟶ ( AF pA pB pC b ) ⟶ AF pB pC pA gamma_v ❘ # angleScroll 3 4 ❙
+    gamma = angleScroll palpha pbeta  ❙
+❚

@@ -49,6 +49,7 @@ DependsOn http://BenniDoes.Stuff/?Solution?v?type http://BenniDoes.Stuff/?Vector
 Declares http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Solution?tmp
 constant http://BenniDoes.Stuff/?Solution?tmp
 DependsOn http://BenniDoes.Stuff/?Solution?tmp?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Solution?tmp?definition http://BenniDoes.Stuff/?standartMathStuff?tan?type
 DependsOn http://BenniDoes.Stuff/?Solution?tmp?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
 Declares http://BenniDoes.Stuff/?Solution http://BenniDoes.Stuff/?Solution?playscroll2
 constant http://BenniDoes.Stuff/?Solution?playscroll2

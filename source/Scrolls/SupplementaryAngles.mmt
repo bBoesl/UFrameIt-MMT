@@ -1,0 +1,33 @@
+namespace http://BenniDoes.Stuff/ ❚
+
+fixmeta http://BenniDoes.Stuff/?ScrollMeta ❚
+
+theory SupplemenaryAngles_Problem =
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollname "Supplemenary Angles" ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollpart ☞http://BenniDoes.Stuff/?ScrollMeta?partProblem ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?solutionTheoryURI ☞http://BenniDoes.Stuff/?SupplemenaryAngles_Solution ❙
+    meta http://BenniDoes.Stuff/?ScrollMeta?scrollDescriptionUI "Supplementary Angles add up to 180 degree " ❙
+
+
+    pA: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point A"❙
+    pB: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point B"❙
+    pC: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point C"❙
+    pD: V ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Point D"❙
+
+    pL: L ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Line L"❙
+    pOnLA : LF pA pL ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "A on L"❙
+    pOnLB : LF pB pL ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "B on L"❙
+    pOnLC : LF pC pL ❘ meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "C on L"❙
+
+    palpha_v: ℝ ❙
+    palpha: AF pA pB pD ( palpha_v )❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?parameterDescriptionUI "Angle between A B and D " ❘
+        meta http://BenniDoes.Stuff/?ScrollMeta?factValue ☞http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha_v❙
+❚
+
+theory SupplemenaryAngles_Solution =
+    include ?SupplemenaryAngles_Problem ❙
+    gamma_v : ℝ ❘ = 180.0 - palpha_v  ❙
+    SupplementaryAngleScroll: {a }  ( AF pA pB pD a) ⟶ V ⟶ AF pD pB pC gamma_v ❘ # supplScroll 2 3 ❙
+    gamma = supplScroll palpha C ❙
+❚

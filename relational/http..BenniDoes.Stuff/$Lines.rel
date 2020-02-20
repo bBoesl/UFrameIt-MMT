@@ -8,6 +8,7 @@ dataconstructor http://BenniDoes.Stuff/?Lines?onLine
 dataconstructor http://BenniDoes.Stuff/?Lines?buildLine
 dataconstructor http://BenniDoes.Stuff/?Lines?sameLine
 dataconstructor http://BenniDoes.Stuff/?Lines?collideLine
+dataconstructor http://BenniDoes.Stuff/?Lines?parallelLine
 dataconstructor http://BenniDoes.Stuff/?Lines?pointOfIntersection
 dataconstructor http://BenniDoes.Stuff/?Lines?pointOfIntersectionAxiom
 theory http://BenniDoes.Stuff/?Lines
@@ -103,6 +104,17 @@ DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://mathhub.in
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://BenniDoes.Stuff/?Lines?line?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://BenniDoes.Stuff/?Lines?onLine?type
 DependsOn http://BenniDoes.Stuff/?Lines?collideLine?definition http://mathhub.info/MitM/Foundation?Logic?and?type
+Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?parallelLine
+constant http://BenniDoes.Stuff/?Lines?parallelLine
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?type http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?type http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?type http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?definition http://BenniDoes.Stuff/?Lines?lineDirection?type
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?definition http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?Lines?parallelLine?definition http://BenniDoes.Stuff/?Vector?parallel?type
 Declares http://BenniDoes.Stuff/?Lines http://BenniDoes.Stuff/?Lines?pointOfIntersection
 constant http://BenniDoes.Stuff/?Lines?pointOfIntersection
 DependsOn http://BenniDoes.Stuff/?Lines?pointOfIntersection?type http://BenniDoes.Stuff/?Lines?collideLine?type
