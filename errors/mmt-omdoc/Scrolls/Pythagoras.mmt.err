@@ -140,10 +140,10 @@
     <element>info.kwarc.mmt.api.checking.RuleBasedChecker.logGroup(RuleBasedChecker.scala:17)</element>
     <element>info.kwarc.mmt.api.checking.RuleBasedChecker.apply(RuleBasedChecker.scala:95)</element>
     <element>info.kwarc.mmt.api.checking.MMTStructureChecker.checkInhabitable$1(MMTStructureChecker.scala:262)</element>
-    <element>info.kwarc.mmt.api.checking.MMTStructureChecker.$anonfun$check$17(MMTStructureChecker.scala:303)</element>
-    <element>info.kwarc.mmt.api.checking.MMTStructureChecker.$anonfun$check$17$adapted(MMTStructureChecker.scala:289)</element>
+    <element>info.kwarc.mmt.api.checking.MMTStructureChecker.$anonfun$check$15(MMTStructureChecker.scala:270)</element>
+    <element>info.kwarc.mmt.api.checking.MMTStructureChecker.$anonfun$check$15$adapted(MMTStructureChecker.scala:267)</element>
     <element>scala.Option.foreach(Option.scala:274)</element>
-    <element>info.kwarc.mmt.api.checking.MMTStructureChecker.check(MMTStructureChecker.scala:289)</element>
+    <element>info.kwarc.mmt.api.checking.MMTStructureChecker.check(MMTStructureChecker.scala:267)</element>
     <element>info.kwarc.mmt.api.checking.MMTStructureChecker.applyElementBegin(MMTStructureChecker.scala:73)</element>
     <element>info.kwarc.mmt.api.checking.TwoStepInterpreter$$anon$1.onElement(Interpreter.scala:88)</element>
     <element>info.kwarc.mmt.api.parser.KeywordBasedParser.seCont(StructureParser.scala:131)</element>
