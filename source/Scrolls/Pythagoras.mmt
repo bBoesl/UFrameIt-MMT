@@ -33,5 +33,5 @@ theory Pythagoras_Get_dAB_Solution =
     include ?Pythagoras_Get_dAB_Problem ❙
     distAB_v : ℝ ❘ = √ ( pdistAC_v ⋅ pdistAC_v + pdistBC_v ⋅ pdistBC_v ) ❙
     pythagorasScroll: V ⟶ V ⟶ V ⟶ DF pA pB distAB_v ❙
-    distCA = pythagorasScroll pA pB pC  ❙
+    distCA : DF pA pB distAB_v ❘ = pythagorasScroll pA pB pC  ❙
 ❚

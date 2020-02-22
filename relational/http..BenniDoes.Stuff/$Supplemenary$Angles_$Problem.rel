@@ -1,0 +1,68 @@
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pA
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pB
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pC
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pD
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha_v
+dataconstructor http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha
+theory http://BenniDoes.Stuff/?SupplemenaryAngles_Problem
+HasMeta http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?ScrollMeta
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pA
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pA
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pA?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pB
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pB
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pB?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pC
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pC
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pC?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pD
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pD
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pD?type http://BenniDoes.Stuff/?Vector?vector?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL?type http://BenniDoes.Stuff/?Lines?line?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://BenniDoes.Stuff/?OnLineFact?onLineFact?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLA?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pA?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://BenniDoes.Stuff/?OnLineFact?onLineFact?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLB?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://BenniDoes.Stuff/?Lines?line?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://BenniDoes.Stuff/?OnLineFact?onLineFact?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://BenniDoes.Stuff/?OnLineFact?onLineFact?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pL?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pOnLC?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pC?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha_v
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha_v
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha_v?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+Declares http://BenniDoes.Stuff/?SupplemenaryAngles_Problem http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha
+constant http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pD?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?AngleFact?angleFact?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha_v?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?palpha?type http://BenniDoes.Stuff/?SupplemenaryAngles_Problem?pA?type

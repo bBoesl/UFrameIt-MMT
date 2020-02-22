@@ -28,5 +28,5 @@ theory AngleSum_get_Gamma_Solution =
     include ?AngleSum_get_Gamma_Problem ❙
     gamma_v : ℝ ❘ = 180.0 - palpha_v - pbeta_v ❙
     angleSumScroll: {a, b } ( AF pB pA pC a) ⟶ ( AF pA pB pC b ) ⟶ AF pB pC pA gamma_v ❘ # angleScroll 3 4 ❙
-    gamma = angleScroll palpha pbeta  ❙
+    gamma: AF pB pC pA gamma_v ❘ = angleScroll palpha pbeta  ❙
 ❚

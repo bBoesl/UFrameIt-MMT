@@ -1,0 +1,64 @@
+dataconstructor http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v
+dataconstructor http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll
+dataconstructor http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma
+theory http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution
+HasMeta http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution http://BenniDoes.Stuff/?ScrollMeta
+Includes http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem
+Declares http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v
+constant http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pbeta_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?subtraction?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha_v?type
+Declares http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll
+constant http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pA?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleFact?angleFact?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pC?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pbeta_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://mathhub.info/MitM/core/arithmetics?RealArithmetics?subtraction?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha_v?type
+Declares http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma
+constant http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pA?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleFact?angleFact?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pC?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pbeta_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://mathhub.info/MitM/core/arithmetics?RealArithmetics?subtraction?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?type http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?angleSumScroll?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma_v?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleFact?angleFact?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://mathhub.info/MitM/Foundation?Logic?prop?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pC?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://cds.omdoc.org/urtheories?Ded?DED?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pbeta?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://mathhub.info/MitM/Foundation?Logic?eq?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://cds.omdoc.org/urtheories?Bool?BOOL?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pA?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?Vector?angle_between?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://mathhub.info/MitM/Foundation?Logic?prop?definition
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?pbeta_v?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://mathhub.info/MitM/core/arithmetics?RealArithmetics?subtraction?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?AngleSum_get_Gamma_Solution?gamma?definition http://BenniDoes.Stuff/?AngleSum_get_Gamma_Problem?palpha_v?type

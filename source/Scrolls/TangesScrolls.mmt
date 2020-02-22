@@ -32,5 +32,5 @@ theory Tangens_Get_dAC_Solution =
     include ?Tangens_Get_dAC_Problem ❙
     distCA_v : ℝ ❘ = ( tan pangleABC_v ) ⋅ pdistBC_v ❙
     tangensScroll: V ⟶ V ⟶ V ⟶ DF pA pC distCA_v ❙
-    distCA = tangensScroll pA pB pC  ❙
+    distCA: DF pA pC distCA_v ❘  = tangensScroll pA pB pC  ❙
 ❚

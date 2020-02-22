@@ -46,3 +46,11 @@ DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://
 DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleABC?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC?type
 Declares http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA
 constant http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pB?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://BenniDoes.Stuff/?AngleFact?angleFact?definition
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://BenniDoes.Stuff/?AngleFact?angleFact?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://BenniDoes.Stuff/?Vector?vector?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pA?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://mathhub.info/MitM/Foundation?Logic?ded?definition
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://mathhub.info/MitM/Foundation?RealLiterals?real_lit?type
+DependsOn http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pangleBCA?type http://BenniDoes.Stuff/?Tangens_Get_dAC_Problem?pC?type
